@@ -1,0 +1,92 @@
+html {
+	background-color: #000000;
+	  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+
+}
+.page-content {
+	width: 100%;
+	background-color: #000000;
+}
+
+.navigation-box {
+	width: 100%;
+	display:flex;
+}
+
+.navigation {
+	width:100%;
+}
+
+.navigation nav ul li {
+
+	list-style:none;
+	float:left;
+}
+
+.nav-flex {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+.nav-logo, .news-logo, .hof-logo, .hof2-logo, .about-logo {
+	width: 44px;
+	height: 44px;
+	box-sizing:border-box;
+	margin:10px;
+}
+
+.landing {
+	background-image: url(../img/landing.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+	width: 100%;
+	padding-bottom:80%;
+	float:left;
+}
+
+.blog {
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+}
+
+.blog-entry-container {
+	float:left;
+	box-sizing:border-box;
+	padding:10px;
+	margin:10px 10px 20px 10px;
+}
+
+
+.blog-box-heading {
+	font-size: 1.6em;
+	color: #f2f2f2;
+	padding:10px;
+	margin:0px 10px 0px 10px;
+	box-sizing:border-box;
+	border-bottom: 1px solid;
+	border-color: #840200;
+}
+
+.blog-title {
+	font-size: 1.5em;
+	color: #f2f2f2;
+}
+
+.blog-content p {
+	color: #f2f2f2;
+}
+
+.bottom-blog-border {
+	width: 100%;
+
+}
