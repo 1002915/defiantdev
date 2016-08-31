@@ -7,60 +7,78 @@ html {
   background-size: cover;
 }
 
-body {
-
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
 }
 .page-content {
 	width: 100%;
 	background-color: #000000;
 }
 
-.navigation-box {
-	width: 100%;
-	display:flex;
-}
-
 .navigation {
 	width:100%;
+	box-sizing:border-box;
+	padding:10px;
+
 }
 
 .navigation nav ul li {
 
 	list-style:none;
-	float:left;
+	margin-right:20px;
 }
 
 .nav-flex {
 	display:flex;
 	flex-wrap:wrap;
-	justify-content: space-around;
+	justify-content:left;
 }
 
-.nav-logo, .news-logo, .hof-logo, .hof2-logo, .about-logo {
-	width: 44px;
-	height: 44px;
+.news-logo, .hof-logo, .hof2-logo, .about-logo {
+	width: 49px;
+	height: 49px;
 	box-sizing:border-box;
 	margin:10px;
 }
-
+.nav-logo {
+	width: 153px;
+	height: 34px;
+	box-sizing:border-box;
+	margin:10px;
+}
 .landing {
 	background-image: url(../img/landing.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:top;
 	width: 100%;
-	padding-bottom:80%;
-	float:left;
+	display:block;
+	position:relative;
+	padding-bottom:56.25%;
 }
-
+/*
+.container::before {
+	background-image: url('../img/gradient.png');
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    height:182px;
+}
+*/
 .blog {
 	width:100%;
-	float:left;
+	max-width: 700px;
+	margin: 0 auto;
 	box-sizing:border-box;
+	display:block;
 }
 
 .blog-entry-container {
-	float:left;
 	box-sizing:border-box;
 	padding:10px;
 	margin:10px 10px 20px 10px;
@@ -68,6 +86,8 @@ body {
 
 
 .blog-box-heading {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 	font-size: 1.6em;
 	color: #f2f2f2;
 	padding:10px;
@@ -88,5 +108,116 @@ body {
 
 .bottom-blog-border {
 	width: 100%;
+
+}
+
+.footer-container {
+	box-sizing:border-box;
+	width:100%;
+	height:130px;
+}
+
+.footer-logo {
+	width: 100px;
+	display:block;
+	margin: 0 auto;
+}
+
+.footer-text {
+	width: 100%;
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 0.8em;
+}
+
+.nav-button-small {
+	font-family: 'Oswald', sans-serif;
+	color: #f2f2f2;
+	height: 44px;
+	box-sizing:border-box;
+	margin:10px;
+	font-size:1em;
+	font-weight: 700;
+	line-height:3em;
+}
+
+.nav-button-small:hover {
+	color:white;
+}
+
+.link-icon {
+	height: 44px;
+	box-sizing:border-box;
+	margin:10px;
+	font-size:1em;
+	font-weight: 700;
+	line-height:3em;
+}
+
+.twitter-container {
+	width: 300px;
+	max-height: 800px;
+	margin-top:10px;
+}
+
+.twitter-title {
+	font-size: 1.6em;
+    color: #f2f2f2;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+
+}
+
+.twitter-timeline {
+	max-height: 1400px;
+	overflow: scroll;
+	background-color: rgba(0,0,0,0);
+}
+
+.mobile-logo {
+	width: 100%;
+	display:none;
+	width: 153px;
+	height: 34px;
+	box-sizing:border-box;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 700px) {
+	.twitter-container, .twitter-title {
+		display:none;
+	}
+
+	.nav-logo {
+		display:none;
+	}
+
+	.nav-flex {
+		justify-content:space-around;
+	}
+
+	.mobile-logo {
+		display:block;
+	}
+
+}
+
+.full-width-gradient {
+	width:100%;
+	height:0px;
+	background-image: url('../img/gradient.png');
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    padding-bottom:10%;
+    margin-top: -91px;
+    z-index:-1;
 
 }
