@@ -1,6 +1,6 @@
 html {
 	background-color: #000000;
-	  background: url(../img/background.jpg) no-repeat center center fixed; 
+	 background: url(../img/hof2background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +11,6 @@ html {
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
-	display: flex;
 }
 .page-content {
 	width: 100%;
@@ -58,6 +57,19 @@ html {
 	display:block;
 	position:relative;
 	padding-bottom:56.25%;
+}
+
+.landing-hof-2 {
+	background-image: url(../img/landinghof2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+	width: 100%;
+	display:block;
+	position:relative;
+	padding-bottom:56.25%;
+	height:0px;
+	overflow:visible;
 }
 /*
 .container::before {
@@ -115,6 +127,13 @@ html {
 	box-sizing:border-box;
 	width:100%;
 	height:130px;
+}
+
+.footer-container-hof2 {
+	box-sizing:border-box;
+	width:100%;
+	height:130px;
+	background-color:black;
 }
 
 .footer-logo {
@@ -215,9 +234,108 @@ html {
     content: "";
     display: block;
     width: 100%;
-    position: absolute;
+    position: relative;
     padding-bottom:10%;
-    margin-top: -91px;
-    z-index:-1;
+    z-index:0;
+}
 
+.hof-2-logo {
+	width: 20%;
+	margin-left:5%;
+	margin-top:2%;
+}
+
+.youtube-trailer-box {
+	width: 100%;
+	box-sizing:border-box;
+	margin:0% 2% 2% 2%;
+	padding: 10px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.trailer-text-area {
+	width: 40%;
+	color:white;
+	padding:10px;
+	margin:10px;
+	box-sizing:border-box;
+
+}
+
+.overview-container, .screenshots-section, .key-features-container {
+	width:100%;
+	position:relative;
+	overflow:visible;
+	box-sizing:border-box;
+	padding-top:10%;
+	padding-bottom:56.25%;
+	display:flex;
+	height:0px;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+.overview-container {
+	background-image: url(../img/overviewbackground.png);
+}
+
+.key-features-container {
+	background-image: url(../img/keyfeatures.png);
+}
+
+.coming-soon-container {
+	background-color:black;
+	margin-top: -20%;
+	padding-top: 20%;
+	box-sizing:border-box;
+	z-index: -1;
+	width:100%;
+	padding-bottom:10%;
+}
+
+.girl {
+	background-image: url(../img/female.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:30%;
+	padding-bottom:45%;
+	content: "";
+}
+
+.shaman {
+	background-image: url(../img/shaman.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:55%;
+	padding-bottom:80%;
+	margin-top: -27%;
+	content: "";
+}
+
+.platform-flex {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+.platform-item {
+	width:15%;
+	height:15%;
+}
+
+.coming-soon {
+	width:100%;
+	color:#f2f2f2;
+	font-size: 3em;
+	text-align: center;
+	margin:0 auto;
+	float:left;
+	display:block;
+	margin-bottom:40px;
+	font-weight: 700;
 }
