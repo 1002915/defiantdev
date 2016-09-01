@@ -1,5 +1,0 @@
-Theme name:    Defiant Dev Theme
-Description:   For all you pretty Defiant team members.
-Author name:   Tatiana, Matt, Alex
-Author site:   http://www.sae.edu.au
-License:       http://www.sae.edu.au
