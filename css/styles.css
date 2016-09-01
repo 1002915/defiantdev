@@ -1,12 +1,8 @@
 html {
 	background-color: #1d1d1d;
-	 background: url(../img/backgroundhof.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+	background: url(../img/repeatingbg.jpg); 
 
+}
 
 .container {
 	max-width: 1200px;
@@ -14,12 +10,10 @@ html {
 	margin: 0 auto;
 }
 
-
 .page-content {
 	width: 100%;
 	background-color: #000000;
 }
-
 
 .navigation {
 	width: 100%;
@@ -27,19 +21,16 @@ html {
 	padding: 7px;
 }
 
-
 .navigation nav ul li {
 	list-style: none;
 	margin-right: 20px;
 }
-
 
 .nav-flex {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: left;
 }
-
 
 .news-logo, .hof-logo, .hof2-logo, .about-logo {
 	width: 49px;
@@ -48,14 +39,12 @@ html {
 	margin: 10px;
 }
 
-
 .nav-logo {
 	width: 107px;
 	height: 24px;
 	box-sizing: border-box;
 	margin: 10px;
 }
-
 
 .landing {
 	background-image: url(../img/landing.png);
@@ -67,7 +56,6 @@ html {
 	position: relative;
 	padding-bottom: 56.25%;
 }
-
 
 .landing-hof-2 {
 	background-image: url(../img/landinghof2.jpg);
@@ -82,7 +70,6 @@ html {
 	overflow: visible;
 }
 
-
 .landing-hof-1 {
 	background-image: url(../img/hoflanding.png);
 	background-size: cover;
@@ -96,19 +83,6 @@ html {
 	padding-bottom: 56.25%;
 }
 
-
-@media screen and (min-width: 320px ) and (max-width: 700px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 500px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 500px) {
-}
-
-
 .blog {
 	width: 100%;
 	max-width: 700px;
@@ -117,13 +91,11 @@ html {
 	display: block;
 }
 
-
 .blog-entry-container {
 	box-sizing: border-box;
 	padding: 10px;
 	margin: 10px 10px 20px 10px;
 }
-
 
 .blog-box-heading {
 	font-family: 'Oswald', sans-serif;
@@ -137,29 +109,24 @@ html {
 	border-color: #840200;
 }
 
-
 .blog-title {
 	font-size: 1.5em;
 	color: #f2f2f2;
 }
 
-
 .blog-content p {
 	color: #f2f2f2;
 }
 
-
 .bottom-blog-border {
 	width: 100%;
 }
-
 
 .footer-container {
 	box-sizing: border-box;
 	width: 100%;
 	height: 130px;
 }
-
 
 .footer-container-hof2 {
 	box-sizing: border-box;
@@ -168,13 +135,11 @@ html {
 	background-color: black;
 }
 
-
 .footer-logo {
 	width: 100px;
 	display: block;
 	margin: 0 auto;
 }
-
 
 .footer-text {
 	width: 100%;
@@ -184,7 +149,6 @@ html {
 	color: #f2f2f2;
 	font-size: 0.8em;
 }
-
 
 .nav-button-small {
 	font-family: 'Oswald', sans-serif;
@@ -197,11 +161,9 @@ html {
 	line-height: 3em;
 }
 
-
 .nav-button-small:hover {
 	color: white;
 }
-
 
 .link-icon {
 	height: 44px;
@@ -212,13 +174,11 @@ html {
 	line-height: 3em;
 }
 
-
 .twitter-container {
 	width: 300px;
 	max-height: 800px;
 	margin-top: 10px;
 }
-
 
 .twitter-title {
 	font-size: 1.6em;
@@ -230,13 +190,11 @@ html {
 	font-weight: 700;
 }
 
-
 .twitter-timeline {
 	max-height: 1400px;
 	overflow: scroll;
 	background-color: rgba(0,0,0,0);
 }
-
 
 .mobile-logo {
 	width: 153px;
@@ -245,11 +203,6 @@ html {
 	box-sizing: border-box;
 	margin: 0 auto;
 }
-
-
-@media screen and (min-width: 320px ) and (max-width: 700px) {
-}
-
 
 .full-width-gradient {
 	width: 100%;
@@ -263,13 +216,11 @@ html {
 	z-index: 0;
 }
 
-
 .hof-2-logo {
 	width: 20%;
 	margin-left: 5%;
 	margin-top: 2%;
 }
-
 
 .youtube-trailer-box {
 	width: 100%;
@@ -282,10 +233,6 @@ html {
 	background-color: black;
 }
 
-
-
-
-
 .trailer-text-area-hof {
 	width: 40%;
 	color: white;
@@ -293,7 +240,6 @@ html {
 	box-sizing: border-box;
 	margin: 5%;
 }
-
 
 h2 {
 	font-family: 'Oswald', sans-serif;
@@ -303,7 +249,6 @@ h2 {
 	color: #b82b14;
 }
 
-
 h3 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
@@ -311,7 +256,6 @@ h3 {
 	margin-bottom: 10px;
 	text-align: center;
 }
-
 
 h4 {
 	font-family: 'Oswald', sans-serif;
@@ -322,14 +266,12 @@ h4 {
 	margin-top: -9%;
 }
 
-
 p.red-text {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	color: #b82b14;
 	text-align: left;
 }
-
 
 p.white-text {
 	font-family: 'Oswald', sans-serif;
@@ -338,42 +280,12 @@ p.white-text {
 	text-align: left;
 }
 
-
 p.black-text {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1em;
 	color: #1d1d1d;
 	text-align: left;
 }
-
-
-@media screen and (min-width: 320px ) and (max-width: 960px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 860px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 1002px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 700px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 785px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 615px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 400px) {
-}
-
 
 .overview-container, .screenshots-section, .screenshots-section-hof, .key-features-container, .key-features-container-hof, .overview-container-hof {
 	width: 100%;
@@ -390,12 +302,10 @@ p.black-text {
 	height: 0px;
 }
 
-
 .overview-container {
 	background-image: url(../img/overviewbackground.png);
 	margin-top: -10%;
 }
-
 
 .overview-container-hof {
 	background-image: url(../img/overviewhof12.png);
@@ -403,25 +313,21 @@ p.black-text {
 	z-index: 2;
 }
 
-
 .screenshots-section-hof {
 	background-image: url(../img/hof2background.jpg);
 	padding-top: 25%;
 	margin-top: -10%;
 }
 
-
 .key-features-container {
 	background-image: url(../img/keyfeatures.png);
-	margin-top: -10%;
+	margin-top: -8%;
 }
-
 
 .key-features-container-hof {
 	background-image: url(../img/keyfeatureshof.png);
 	margin-top: -16%;
 }
-
 
 .coming-soon-container {
 	background-color: black;
@@ -433,27 +339,6 @@ p.black-text {
 	padding-bottom: 10%;
 }
 
-
-@media screen and (min-width: 320px ) and (max-width: 635px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 560px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 542px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 441px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 384px) {
-}
-
-
 .girl {
 	background-image: url(../img/female.png);
 	background-size: cover;
@@ -462,7 +347,6 @@ p.black-text {
 	padding-bottom: 45%;
 	content: "";
 }
-
 
 .guy {
 	background-image: url(../img/swordguy.png);
@@ -473,17 +357,6 @@ p.black-text {
 	width: 45%;
 }
 
-
-.shaman {
-	padding-bottom: 80%;
-	margin-top: -27%;
-	content: "";
-	background-image: url(../img/shaman.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 50%;
-	margin-left: -10%;
-}
 
 
 .rat-dude {
@@ -496,7 +369,6 @@ p.black-text {
 	width: 50%;
 }
 
-
 .platform-flex {
 	display: flex;
 	justify-content: center;
@@ -504,12 +376,10 @@ p.black-text {
 	width: 100%;
 }
 
-
 .platform-item {
 	width: 15%;
 	height: 15%;
 }
-
 
 .coming-soon {
 	width: 100%;
@@ -523,7 +393,6 @@ p.black-text {
 	font-weight: 700;
 }
 
-
 .screenshot-flex, .screenshot-flex-hof {
 	display: flex;
 	justify-content: center;
@@ -532,27 +401,16 @@ p.black-text {
 	margin-top: -10%;
 }
 
-
 .screenshot-flex-hof {
 	width: 100%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-
 .image-popup-no-margins {
 	width: 50%;
 	padding: 1%;
 }
-
-
-@media screen and (min-width: 1921px ) and (max-width: 300px) {
-}
-
-
-@media screen and (min-width: 320px ) and (max-width: 700px) {
-}
-
 
 .responsive-image {
 	border-radius: 11px;
@@ -567,33 +425,14 @@ p.black-text {
 	margin-top: -12%;
 }
 
-
-@media screen and (min-width: 320px ) and (max-width: 500px) {
-}
-
-
 li.black-text {
 	color: black;
 	text-align: left;
 }
 
-
-@media screen and (min-width: 1921px ) and (max-width: 3000px) {
-}
-
-
-@media screen and (min-width: 1450px ) and (max-width: 1920px) {
-}
-
-
-@media screen and (min-width: 1200px ) and (max-width: 1450px) {
-}
-
-
 ul.black-text {
 	margin-top: -20px;
 }
-
 
 .youtube-frame {
 	position: absolute;
@@ -603,7 +442,6 @@ ul.black-text {
 	height: 100%;
 }
 
-
 .video-wrapper {
 	padding-bottom: 56.25%;
 	padding-top: 25px;
@@ -612,11 +450,6 @@ ul.black-text {
 	position: absolute;;;
 }
 
-.container {
-	max-width: 1200px;
-	width: 100%;
-	margin: 0 auto;
-}
 .page-content {
 	width: 100%;
 	background-color: #000000;
@@ -708,17 +541,7 @@ ul.black-text {
 		background-image: url(../img/hofmobile.png);
 	}
 }
-/*
-.container::before {
-	background-image: url('../img/gradient.png');
-    background-size: cover;
-    content: "";
-    display: block;
-    width: 100%;
-    position: absolute;
-    height:182px;
-}
-*/
+
 .blog {
 	width:100%;
 	max-width: 700px;
@@ -882,17 +705,6 @@ ul.black-text {
 	margin-top:2%;
 }
 
-.youtube-trailer-box {
-	width: 100%;
-	box-sizing:border-box;
-	margin-top: -8%;
-	padding: 5% 10px 15% 10px;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: center;
-	background-color: black;
-}
-
 .youtube-trailer-box-hof {
 	width: 70%;
 	box-sizing:border-box;
@@ -905,19 +717,36 @@ ul.black-text {
 	margin-bottom: 15%;
 }
 
+.youtube-trailer-box-hof2 {
+	width: 70%;
+	box-sizing:border-box;
+	padding: 5% 10px 30% 10px;
+	position:relative;
+	height:0;
+	justify-content: center;
+	margin-bottom: 15%;
+}
+
 .trailer-text-area {
 	width: 40%;
-	color:white;
-	padding:10px;
-	margin:10px;
+	box-sizing: border-box;
+	color: white;
+	margin:2%;
+}
+
+.trailer-box {
+	display:flex;
+	justify-content: center;
 	box-sizing:border-box;
+	margin:2%;
+
 }
 
 .trailer-text-area-hof {
 	color:white;
 	padding:10px;
 	box-sizing:border-box;
-	margin: 8%;;;;;;;
+	margin: 8%;
 	width:45%;
 }
 
@@ -982,14 +811,28 @@ p.black-text {
 @media screen and (min-width: 320px ) and (max-width: 1002px) {
 	.trailer-text-area {
 		width:100%;
+		margin:0 auto;
+		margin-bottom:10%;
 		text-align: center;
+		margin-right:2%;
 	}
 
 	.trailer-text-area-hof {
-		width:60%;
+		width:100%;
 		text-align: center;
 		margin-top:30px;
 	}
+
+	.trailer-box {
+		flex-wrap: wrap;
+	}
+
+	.youtube-trailer-box-hof2 {
+		padding-bottom: 35%;
+		margin:0 auto;
+		margin-bottom:5%;
+	}
+
 }
 
 @media screen and (min-width: 320px ) and (max-width: 700px) {
@@ -1028,25 +871,16 @@ p.black-text {
 
 }
 
-
-.overview-container, .screenshots-section, .screenshots-section-hof, .key-features-container, .key-features-container-hof, .overview-container-hof {
-	width:100%;
-	position:relative;
-	overflow:visible;
-	box-sizing:border-box;
-	padding-top:10%;
-	display:flex;
-	justify-content: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position:top;
-	padding-bottom:56.25%;
-	height:0px;
-}
-
 .overview-container {
 	background-image: url(../img/overviewbackground.png);
 	margin-top: -10%;
+	z-index:1;;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 585px) {
+	.overview-container {
+		padding-bottom:70%;
+	}
 }
 
 .overview-container-hof {
@@ -1059,6 +893,12 @@ p.black-text {
 	background-image: url(../img/hof2background.jpg);
 	padding-top:25%;
 	margin-top:-10%;
+}
+
+.screenshots-section {
+	background-image: url(../img/hof2background.jpg);
+	margin-top:-15%;
+
 }
 
 .key-features-container {
@@ -1091,32 +931,35 @@ p.black-text {
 	.key-features-container {
 		padding-bottom:65%;
 	}
+
+	.overview {
+		padding-bottom:20%;
+	}
 }
 
 @media screen and (min-width: 320px ) and (max-width: 542px) {
 	.overview-container, .overview-container-hof, .key-features-container, .key-features-container-hof {
-		padding-bottom:100%;
+		padding-bottom:115%;
 	}
 }
 
 @media screen and (min-width: 320px ) and (max-width: 441px) {
 	.overview-container, .overview-container-hof, .key-features-container, .key-features-container-hof {
-		padding-bottom:125%;
+		padding-bottom:130%;
 	}
 }
 
 @media screen and (min-width: 320px ) and (max-width: 384px) {
 	.overview-container, .overview-container-hof, .key-features-container, .key-features-container-hof {
-		padding-bottom:170%;
+		padding-bottom:190%;
 	}
 	.trailer-text-area {
 		margin-top:30px;
 	}
 	h3 {
-		margin-top: 20%;
+		margin-top: 20%;;
 	}
 }
-
 
 .girl {
 	background-image: url(../img/female.png);
@@ -1136,16 +979,16 @@ p.black-text {
 	width: 45%;
 }
 
-
 .shaman {
-	padding-bottom:80%;
-	margin-top: -27%;
+	padding-bottom:65%;
+	margin-top: -10%;
 	content: "";
 	background-image: url(../img/shaman.png);
 	background-size: cover;;
 	background-repeat:no-repeat;
-	width:50%;
+	width:45%;
 	margin-left:-10%;
+	z-index:2;
 }
 
 .rat-dude {
@@ -1196,6 +1039,10 @@ p.black-text {
 	margin-right:10%;
 }
 
+.screenshot-flex {
+	margin-top:0%;
+}
+
 .image-popup-no-margins {
 	width:50%;
 	padding:1%;
@@ -1212,8 +1059,8 @@ p.black-text {
 		width:100%;
 	}
 	.screenshots-section {
-		padding-bottom: 90%;
-		margin-top:-2%;
+		padding-bottom: 110%;
+		margin-top:-14%;
 	}
 		.platform-item {
 		width: 70%;
@@ -1261,19 +1108,11 @@ li.black-text {
 }
 
 @media screen and (min-width: 1921px ) and (max-width: 3000px) {
-	p.white-text {
+	p.white-text, p.black-text, li.black-text, p.red-text {
 		font-size:2em;
 	}
 
-	p.black-text {
-		font-size:2em;
-	}
-
-	li.black-text {
-		font-size:2em;
-	}
-
-	h4 {
+	h4, h2 {
 		font-size: 3em;
 	}
 
@@ -1283,13 +1122,13 @@ li.black-text {
 }
 
 @media screen and (min-width: 1450px ) and (max-width: 1920px) {
-	li.black-text, p.white-text {
-		font-size: 1.8em;
+	li.black-text, p.white-text, p.red-text {
+		font-size: 1.5em;
 	}
 }
 
 @media screen and (min-width: 1200px ) and (max-width: 1450px) {
-	li.black-text, p.white-text {
+	li.black-text, p.white-text, p.red-text{
 		font-size: 1.4em;
 	}
 }
@@ -1308,6 +1147,7 @@ ul.black-text {
 
 .white-border {
 	border-top: 2px solid #f2f2f2;
+	margin-top:20px;
 }
 
 .white-border-bottom {
@@ -1320,4 +1160,24 @@ ul.black-text {
 
 .black-border-bottom {
 	border-bottom: 2px solid #1d1d1d;
+}
+
+.red-border {
+	border-top: 2px solid #b82b14;
+}
+
+.red-border-bottom {
+	border-bottom: 2px solid #b82b14;
+}
+
+#constraint {
+	max-width: 1920px;
+	overflow:hidden;
+	display:block;
+	margin: 0 auto;
+}
+
+.overview {
+	margin-left: 2%;
+	padding-top: 20px;;;;
 }
