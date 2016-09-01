@@ -1,7 +1,108 @@
 html {
 	background-color: #1d1d1d;
 	background: url(../img/repeatingbg.jpg); 
+}
 
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: 10px;
+	color: #b82b14;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: 10px;
+	color: #1d1d1d;
+	margin-top: -9%;
+}
+
+p.red-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #b82b14;
+	text-align: left;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 960px) {
+	p.red-text {
+		font-size: 0.9em;
+	}
+}
+
+@media screen and (min-width: 1921px ) and (max-width: 3000px) {
+	p.white-text, p.black-text, li.black-text, p.red-text {
+		font-size:2em;
+	}
+
+	h4, h2 {
+		font-size: 3em;
+	}
+
+	.coming-soon {
+		font-size: 4em;
+	}
+}
+
+@media screen and (min-width: 1450px ) and (max-width: 1920px) {
+	li.black-text, p.white-text, p.red-text {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 1200px ) and (max-width: 1450px) {
+	li.black-text, p.white-text, p.red-text{
+		font-size: 1.4em;
+	}
+}
+
+p.white-text {
+	font-family: 'Oswald', sans-serif;
+}
+
+p.black-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #1d1d1d;
+	text-align: left;
+}
+
+li.black-text {
+	color: black;
+	text-align: left;
+}
+
+ul.black-text {
+	margin-top: -20px;
+}
+
+.navigation nav ul li {
+	list-style:none;
+	margin-right:20px;
+}
+
+.navigation {
+	width: 100%;
+	box-sizing:border-box;
+	padding:7px;
+}
+
+#constraint {
+	max-width: 1920px;
+	overflow:hidden;
+	display:block;
+	margin: 0 auto;
 }
 
 .container {
@@ -13,23 +114,6 @@ html {
 .page-content {
 	width: 100%;
 	background-color: #000000;
-}
-
-.navigation {
-	width: 100%;
-	box-sizing: border-box;
-	padding: 7px;
-}
-
-.navigation nav ul li {
-	list-style: none;
-	margin-right: 20px;
-}
-
-.nav-flex {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: left;
 }
 
 .news-logo, .hof-logo, .hof2-logo, .about-logo {
@@ -128,26 +212,12 @@ html {
 	height: 130px;
 }
 
-.footer-container-hof2 {
-	box-sizing: border-box;
-	width: 100%;
-	height: 130px;
-	background-color: black;
-}
-
 .footer-logo {
 	width: 100px;
-	display: block;
-	margin: 0 auto;
 }
 
 .footer-text {
 	width: 100%;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	color: #f2f2f2;
-	font-size: 0.8em;
 }
 
 .nav-button-small {
@@ -196,32 +266,6 @@ html {
 	background-color: rgba(0,0,0,0);
 }
 
-.mobile-logo {
-	width: 153px;
-	display: none;
-	height: 34px;
-	box-sizing: border-box;
-	margin: 0 auto;
-}
-
-.full-width-gradient {
-	width: 100%;
-	height: 0px;
-	background-image: url('../img/gradient.png');
-	background-size: cover;
-	content: "";
-	display: block;
-	position: relative;
-	padding-bottom: 10%;
-	z-index: 0;
-}
-
-.hof-2-logo {
-	width: 20%;
-	margin-left: 5%;
-	margin-top: 2%;
-}
-
 .youtube-trailer-box {
 	width: 100%;
 	box-sizing: border-box;
@@ -233,140 +277,32 @@ html {
 	background-color: black;
 }
 
-.trailer-text-area-hof {
-	width: 40%;
-	color: white;
-	padding: 10px;
-	box-sizing: border-box;
-	margin: 5%;
-}
-
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2em;
-	margin-bottom: 10px;
-	color: #b82b14;
-}
-
-h3 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2em;
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-h4 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2em;
-	margin-bottom: 10px;
-	color: #1d1d1d;
-	margin-top: -9%;
-}
-
-p.red-text {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
-	color: #b82b14;
-	text-align: left;
-}
-
-p.white-text {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
-	color: #f2f2f2;
-	text-align: left;
-}
-
-p.black-text {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
-	color: #1d1d1d;
-	text-align: left;
-}
-
-.overview-container, .screenshots-section, .screenshots-section-hof, .key-features-container, .key-features-container-hof, .overview-container-hof {
-	width: 100%;
-	position: relative;
-	overflow: visible;
-	box-sizing: border-box;
-	padding-top: 10%;
-	display: flex;
-	justify-content: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-	padding-bottom: 56.25%;
-	height: 0px;
-}
-
-.overview-container {
-	background-image: url(../img/overviewbackground.png);
-	margin-top: -10%;
-}
-
-.overview-container-hof {
-	background-image: url(../img/overviewhof12.png);
-	margin-top: -10%;
-	z-index: 2;
-}
-
-.screenshots-section-hof {
-	background-image: url(../img/hof2background.jpg);
-	padding-top: 25%;
-	margin-top: -10%;
-}
-
-.key-features-container {
-	background-image: url(../img/keyfeatures.png);
-	margin-top: -8%;
-}
-
-.key-features-container-hof {
-	background-image: url(../img/keyfeatureshof.png);
-	margin-top: -16%;
-}
-
-.coming-soon-container {
-	background-color: black;
-	margin-top: -20%;
-	padding-top: 20%;
-	box-sizing: border-box;
-	z-index: -1;
-	width: 100%;
-	padding-bottom: 10%;
-}
-
 .girl {
 	background-image: url(../img/female.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 30%;
 	padding-bottom: 45%;
-	content: "";
 }
 
 .guy {
 	background-image: url(../img/swordguy.png);
-	background-size: cover;
+	background-size: contain;;
 	background-repeat: no-repeat;
 	content: "";
+	width: 50%;
 	padding-bottom: 45%;
-	width: 45%;
+	background-position: center;
 }
 
-
-
 .rat-dude {
-	padding-bottom: 52%;
-	box-sizing: border-box;
-	margin-top: -3%;
+	box-sizing:border-box;
+	margin-top:-3%;
 	background-image: url(../img/ratguy.png);
 	background-size: cover;
-	background-repeat: no-repeat;
-	width: 50%;
+	background-repeat:no-repeat;
+	width:50%;
+	padding-bottom: 52%;
 }
 
 .platform-flex {
@@ -383,28 +319,14 @@ p.black-text {
 
 .coming-soon {
 	width: 100%;
-	color: #f2f2f2;
-	font-size: 3em;
-	text-align: center;
-	margin: 0 auto;
-	float: left;
-	display: block;
-	margin-bottom: 40px;
-	font-weight: 700;
 }
 
 .screenshot-flex, .screenshot-flex-hof {
 	display: flex;
-	justify-content: center;
-	width: 55%;
-	flex-wrap: wrap;
-	margin-top: -10%;
 }
 
 .screenshot-flex-hof {
 	width: 100%;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 
 .image-popup-no-margins {
@@ -416,22 +338,6 @@ p.black-text {
 	border-radius: 11px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	width: 100%;
-}
-
-
-.intro-box {
-	width: 30%;
-	margin-left: 20%;
-	margin-top: -12%;
-}
-
-li.black-text {
-	color: black;
-	text-align: left;
-}
-
-ul.black-text {
-	margin-top: -20px;
 }
 
 .youtube-frame {
@@ -450,42 +356,12 @@ ul.black-text {
 	position: absolute;;;
 }
 
-.page-content {
-	width: 100%;
-	background-color: #000000;
-}
-
-.navigation {
-	width:100%;
-	box-sizing:border-box;
-	padding:7px;
-
-}
-
-.navigation nav ul li {
-
-	list-style:none;
-	margin-right:20px;
-}
-
 .nav-flex {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:left;
 }
 
-.news-logo, .hof-logo, .hof2-logo, .about-logo {
-	width: 49px;
-	height: 49px;
-	box-sizing:border-box;
-	margin:10px;
-}
-.nav-logo {
-	width: 107px;
-	height: 24px;
-	box-sizing:border-box;
-	margin:10px;
-}
 .landing {
 	background-image: url(../img/landing.png);
 	background-size: cover;
@@ -510,26 +386,7 @@ ul.black-text {
 	overflow:visible;
 }
 
-.landing-hof-1 {
-	background-image: url(../img/hoflanding.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position:top;
-	width: 100%;
-	display:block;
-	position:relative;
-	height:0px;
-	overflow:visible;
-	padding-bottom: 56.25%;
-}
-
 @media screen and (min-width: 320px ) and (max-width: 700px) {
-	.landing-hof-1 {
-		padding-bottom:130%;
-	}
-}
-
-@media screen and (min-width: 320px ) and (max-width: 500px) {
 	.landing-hof-1 {
 		padding-bottom:130%;
 	}
@@ -556,7 +413,6 @@ ul.black-text {
 	margin:10px 10px 20px 10px;
 }
 
-
 .blog-box-heading {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
@@ -580,7 +436,6 @@ ul.black-text {
 
 .bottom-blog-border {
 	width: 100%;
-
 }
 
 .footer-container {
@@ -597,13 +452,11 @@ ul.black-text {
 }
 
 .footer-logo {
-	width: 100px;
 	display:block;
 	margin: 0 auto;
 }
 
 .footer-text {
-	width: 100%;
 	display:block;
 	margin: 0 auto;
 	text-align: center;
@@ -649,7 +502,6 @@ ul.black-text {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-
 }
 
 .twitter-timeline {
@@ -687,22 +539,21 @@ ul.black-text {
 }
 
 .full-width-gradient {
-	width:100%;
-	height:0px;
+	width: 100%;
+	height: 0px;
 	background-image: url('../img/gradient.png');
-    background-size: cover;
-    content: "";
-    display: block;
-    width: 100%;
-    position: relative;
-    padding-bottom:10%;
-    z-index:0;
+	background-size: cover;
+	content: "";
+	display: block;
+	position: relative;
+	padding-bottom: 10%;
+	z-index: 0;
 }
 
 .hof-2-logo {
 	width: 20%;
-	margin-left:5%;
-	margin-top:2%;
+	margin-left: 5%;
+	margin-top: 2%;
 }
 
 .youtube-trailer-box-hof {
@@ -739,7 +590,6 @@ ul.black-text {
 	justify-content: center;
 	box-sizing:border-box;
 	margin:2%;
-
 }
 
 .trailer-text-area-hof {
@@ -748,64 +598,6 @@ ul.black-text {
 	box-sizing:border-box;
 	margin: 8%;
 	width:45%;
-}
-
-h2 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2em;
-	margin-bottom: 10px;
-	color: #b82b14;
-}
-
-h3 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2em;
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-h4 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2em;
-	margin-bottom: 10px;
-	color: #1d1d1d;	
-	margin-top:-9%;
-}
-
-p.red-text {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
-	color: #b82b14;
-	text-align:left;
-}
-
-p.white-text {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
-	color: #f2f2f2;
-	text-align:left;
-}
-
-p.black-text {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
-	color: #1d1d1d;
-	text-align:left;
-}
-
-@media screen and (min-width: 320px ) and (max-width: 960px) {
-	p.red-text {
-		font-size: 0.9em;
-	}
-}
-
-@media screen and (min-width: 320px ) and (max-width: 860px) {
-	p.red-text {
-		font-size: 0.9em;
-	}
 }
 
 @media screen and (min-width: 320px ) and (max-width: 1002px) {
@@ -884,14 +676,12 @@ p.black-text {
 }
 
 .overview-container-hof {
-	background-image: url(../img/overviewhof12.png);
 	margin-top: -10%;
 	z-index: 2;
 }
 
 .screenshots-section-hof {
 	background-image: url(../img/hof2background.jpg);
-	padding-top:25%;
 	margin-top:-10%;
 }
 
@@ -907,12 +697,10 @@ p.black-text {
 }
 
 .key-features-container-hof {
-	background-image: url(../img/keyfeatureshof.png);
 	margin-top: -16%;
 }
 
 .coming-soon-container {
-	background-color:black;
 	margin-top: -20%;
 	padding-top: 20%;
 	box-sizing:border-box;
@@ -935,6 +723,52 @@ p.black-text {
 	.overview {
 		padding-bottom:20%;
 	}
+}
+
+.overview {
+	margin-left: 2%;
+	padding-top: 20px;
+}
+
+.overview-container, .screenshots-section, .screenshots-section-hof, .key-features-container, .key-features-container-hof, .overview-container-hof {
+	width: 100%;
+	position: relative;
+	overflow: visible;
+	box-sizing: border-box;
+	padding-top: 10%;
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 56.25%;
+	height: 0px;
+}
+
+.overview-container {
+	background-image: url(../img/overviewbackground.png);
+	margin-top: -10%;
+}
+
+.overview-container-hof {
+	background-image: url(../img/overviewhof12.png);
+}
+
+.screenshots-section-hof {
+	padding-top: 25%;
+}
+
+.key-features-container {
+	background-image: url(../img/keyfeatures.png);
+	margin-top: -8%;
+}
+
+.key-features-container-hof {
+	background-image: url(../img/keyfeatureshof.png);
+}
+
+.coming-soon-container {
+	background-color: black;
 }
 
 @media screen and (min-width: 320px ) and (max-width: 542px) {
@@ -961,24 +795,6 @@ p.black-text {
 	}
 }
 
-.girl {
-	background-image: url(../img/female.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width:30%;
-	padding-bottom:45%;
-	content: "";
-}
-
-.guy {
-	background-image: url(../img/swordguy.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	content: "";
-	padding-bottom: 45%;
-	width: 45%;
-}
-
 .shaman {
 	padding-bottom:65%;
 	margin-top: -10%;
@@ -989,16 +805,6 @@ p.black-text {
 	width:45%;
 	margin-left:-10%;
 	z-index:2;
-}
-
-.rat-dude {
-	padding-bottom:52%;
-	box-sizing:border-box;
-	margin-top:-3%;
-	background-image: url(../img/ratguy.png);
-	background-size: cover;
-	background-repeat:no-repeat;
-	width:50%;
 }
 
 .platform-flex {
@@ -1014,7 +820,6 @@ p.black-text {
 }
 
 .coming-soon {
-	width:100%;
 	color:#f2f2f2;
 	font-size: 3em;
 	text-align: center;
@@ -1026,7 +831,6 @@ p.black-text {
 }
 
 .screenshot-flex, .screenshot-flex-hof {
-	display:flex;
 	justify-content: center;
 	width:55%;
 	flex-wrap: wrap;
@@ -1034,7 +838,6 @@ p.black-text {
 }
 
 .screenshot-flex-hof {
-	width: 100%;
 	margin-left:10%;
 	margin-right:10%;
 }
@@ -1083,13 +886,13 @@ p.black-text {
 }
 
 .responsive-image {
-		border-radius:11px;
-		box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-		width:100%;
+	border-radius:11px;
+	box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	width:100%;
 }
 
 .intro-box {
-	width:30%;
+	width: 30%;
 	margin-left: 20%;
 	margin-top:-12%;
 }
@@ -1100,41 +903,6 @@ p.black-text {
 		margin-left:5%;
 		margin-right:0px;
 	}
-}
-
-li.black-text {
-	color:black;
-	text-align:left;
-}
-
-@media screen and (min-width: 1921px ) and (max-width: 3000px) {
-	p.white-text, p.black-text, li.black-text, p.red-text {
-		font-size:2em;
-	}
-
-	h4, h2 {
-		font-size: 3em;
-	}
-
-	.coming-soon {
-		font-size: 4em;
-	}
-}
-
-@media screen and (min-width: 1450px ) and (max-width: 1920px) {
-	li.black-text, p.white-text, p.red-text {
-		font-size: 1.5em;
-	}
-}
-
-@media screen and (min-width: 1200px ) and (max-width: 1450px) {
-	li.black-text, p.white-text, p.red-text{
-		font-size: 1.4em;
-	}
-}
-
-ul.black-text {
-	margin-top:-20px;
 }
 
 .youtube-iframe {
@@ -1170,14 +938,3 @@ ul.black-text {
 	border-bottom: 2px solid #b82b14;
 }
 
-#constraint {
-	max-width: 1920px;
-	overflow:hidden;
-	display:block;
-	margin: 0 auto;
-}
-
-.overview {
-	margin-left: 2%;
-	padding-top: 20px;;;;
-}
