@@ -248,11 +248,12 @@ html {
 .youtube-trailer-box {
 	width: 100%;
 	box-sizing:border-box;
-	margin:0% 2% 2% 2%;
-	padding: 10px;
+	margin-top: -8%;
+	padding: 5% 10px 15% 10px;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: center;
+	background-color: black;
 }
 
 .trailer-text-area {
@@ -261,7 +262,51 @@ html {
 	padding:10px;
 	margin:10px;
 	box-sizing:border-box;
+}
 
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: 10px;
+	color: #b82b14;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+p.red-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
+	color: #b82b14;
+}
+
+p.white-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
+	color: #f2f2f2;
+	text-align:left;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 1002px) {
+	.trailer-text-area {
+		width:100%;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 320px ) and (max-width: 700px) {
+	p.white-text {
+		font-size: 1em;
+	}
+	.girl, .shaman {
+		display:none;
+	}
 }
 
 .overview-container, .screenshots-section, .key-features-container {
@@ -270,21 +315,23 @@ html {
 	overflow:visible;
 	box-sizing:border-box;
 	padding-top:10%;
-	padding-bottom:56.25%;
 	display:flex;
-	height:0px;
 	justify-content: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:top;
+	padding-bottom:56.25%;
+	height:0px;
 }
 
 .overview-container {
 	background-image: url(../img/overviewbackground.png);
+	margin-top: -10%;
 }
 
 .key-features-container {
 	background-image: url(../img/keyfeatures.png);
+	margin-top: -10%;
 }
 
 .coming-soon-container {
@@ -297,6 +344,40 @@ html {
 	padding-bottom:10%;
 }
 
+@media screen and (min-width: 320px ) and (max-width: 635px) {
+	.key-features-container {
+		padding-bottom:60%;
+	}
+}
+
+@media screen and (min-width: 320px ) and (max-width: 560px) {
+	.key-features-container {
+		padding-bottom:65%;
+	}
+}
+
+@media screen and (min-width: 320px ) and (max-width: 542px) {
+	.overview-container, .key-features-container {
+		padding-bottom:100%;
+	}
+}
+
+@media screen and (min-width: 320px ) and (max-width: 441px) {
+	.overview-container, .key-features-container {
+		padding-bottom:125%;
+	}
+}
+
+@media screen and (min-width: 320px ) and (max-width: 384px) {
+	.overview-container, .key-features-container {
+		padding-bottom:170%;
+	}
+	.trailer-text-area {
+		margin-top:30px;
+	}
+}
+
+
 .girl {
 	background-image: url(../img/female.png);
 	background-size: cover;
@@ -307,13 +388,14 @@ html {
 }
 
 .shaman {
-	background-image: url(../img/shaman.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width:55%;
 	padding-bottom:80%;
 	margin-top: -27%;
 	content: "";
+	background-image: url(../img/shaman.png);
+	background-size: cover;;
+	background-repeat:no-repeat;
+	width:50%;
+	margin-left:-10%;
 }
 
 .platform-flex {
@@ -338,4 +420,47 @@ html {
 	display:block;
 	margin-bottom:40px;
 	font-weight: 700;
+}
+
+.responsive-image {
+}
+.screenshot-flex {
+	display:flex;
+	justify-content: center;
+	width:55%;
+	flex-wrap: wrap;
+	margin-top:-10%;
+}
+
+.image-popup-no-margins {
+	width:50%;
+	padding:1%;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 700px) {
+	.screenshot-flex {
+		width:100%;
+	}
+	.screenshots-section {
+		padding-bottom: 90%;
+		margin-top:-2%;
+	}
+		.platform-item {
+		width: 70%;
+		padding: 0px 30px 20px 30px;
+	}
+	.full-width-gradient {
+		display: none;
+	}
+	.hof-2-logo {
+		width:50%;
+		display: block;
+		margin: 0 auto;
+	}
+	.landing-hof-2 {
+		padding-bottom: 100%;
+	}
+	.coming-soon-container {
+		margin-top:-30%;
+	}
 }
