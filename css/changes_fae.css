@@ -138,6 +138,12 @@ p {
 	line-height: 1.5;
 }
 
+.screenshots-section-hof {
+    padding-top: 30%;
+    padding-bottom: 70%;
+    margin-bottom: -40px;
+}
+
 @media screen and (max-width: 1002px) and (min-width: 320px) {
 	.white-border:before, .black-border:before {
 		margin-left:auto;
@@ -183,13 +189,16 @@ p {
 		width: 100%;
 		padding-top: 60px;
 	}
-	.image-popup-no-margins {
+	.screenshot-flex .image-popup-no-margins {
 		width: 33%;
+	}
+	.screenshots-section-hof {
+		padding-bottom: 50%;
 	}
 }
 
 @media screen and (min-width: 1050px) {
-	.image-popup-no-margins {
+	.screenshot-flex .image-popup-no-margins {
 		width: 50%;
 	}
 	.shaman{
@@ -204,9 +213,12 @@ p {
 	}
 }
 
-@media screen and (max-width: 1450px) and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	li.black-text, p.white-text, p.red-text {
 	    font-size: 1em;
+	}
+	.screenshots-section-hof {
+		padding-bottom: 45%;
 	}
 }
 
