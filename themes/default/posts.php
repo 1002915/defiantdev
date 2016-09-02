@@ -31,7 +31,6 @@
       </div>
   </div>
 </div>
-
 <div class='home-background'>
   <div class="container">
     <div class="twitter-title">Latest Tweets
@@ -74,7 +73,7 @@
       <a class="twitter-timeline" data-width="400" data-height="700" data-theme="dark" data-link-color="#a02626" href="https://twitter.com/DefiantDev">Tweets by DefiantDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
-
+  
   <div class='clear-float'></div>
 
   <?php theme_include('footer'); ?>

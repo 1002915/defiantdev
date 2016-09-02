@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 	background-color: #000000;
 	 background: url('../img/background.jpg') no-repeat center center fixed;
@@ -346,7 +350,6 @@ html {
 
 html {
 	background-color: #1d1d1d;
-	background: url(../img/repeatingbg.jpg); 
 }
 
 h2 {
@@ -380,6 +383,10 @@ p.red-text {
 	font-size: 1em;
 	color: #b82b14;
 	text-align: left;
+}
+
+.clear-float {
+	clear: both;
 }
 
 @media screen and (min-width: 320px ) and (max-width: 960px) {
@@ -435,6 +442,13 @@ ul.black-text {
 	margin-top: -20px;
 }
 
+.home-background {
+	background: url(../img/background.jpg);
+	background-size: cover;
+	margin-top: -200px;
+	padding-top:200px;
+}
+
 .navigation nav ul li {
 	list-style:none;
 	margin-right:20px;
@@ -454,7 +468,7 @@ ul.black-text {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1220px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -514,6 +528,8 @@ ul.black-text {
 	max-width: 700px;
 	box-sizing: border-box;
 	display: block;
+	float:left;
+	
 }
 
 .blog-entry-container {
@@ -589,6 +605,7 @@ ul.black-text {
 	width: 300px;
 	max-height: 800px;
 	margin-top: 10px;
+	float:left;
 }
 
 .twitter-title {
@@ -599,6 +616,9 @@ ul.black-text {
 	box-sizing: border-box;
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 700;
+	width:300px;
+	float: left;
+	height:auto;
 }
 
 .twitter-timeline {
@@ -737,6 +757,8 @@ ul.black-text {
 	max-width: 700px;
 	box-sizing:border-box;
 	display:block;
+	margin-left: 50px;
+	margin-right:40px;
 }
 
 .clear-float {
@@ -838,7 +860,12 @@ ul.black-text {
     box-sizing: border-box;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+<<<<<<< HEAD
+    float: left;
+    margin-left: 40px;
+=======
     float: right;
+>>>>>>> master
 }
 
 .twitter-timeline {
