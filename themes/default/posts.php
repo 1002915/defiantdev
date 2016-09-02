@@ -10,7 +10,7 @@
           <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
           <li ><a class="nav-button-small" href="hof1.html">HAND OF FATE 1</a></li>
           <li ><a class="nav-button-small" href="hof2.html">HAND OF FATE 2</a></li>
-          <li ><a class="nav-button-small" href="about.php">ABOUT</a></li>
+          <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
         </ul>
       </nav>
     </div>
