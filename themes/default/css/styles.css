@@ -223,8 +223,14 @@ html {
 	.mobile-logo {
 		display:block;
 	}
+}
 
-	.mobile-twitter {width:96%;}
+@media screen and (max-width: 700px) {
+	.mobile-twitter {width:96% !important;}
+}
+
+@media screen and (max-width: 500px) {
+	.mobile-twitter {width:100% !important;}
 }
 
 .full-width-gradient {

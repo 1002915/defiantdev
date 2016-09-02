@@ -866,12 +866,8 @@ ul.black-text {
     box-sizing: border-box;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-<<<<<<< HEAD
-    float: left;
-    margin-left: 40px;
-=======
     float: right;
->>>>>>> master
+
 }
 
 .twitter-timeline {
