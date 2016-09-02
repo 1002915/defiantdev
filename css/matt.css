@@ -51,4 +51,23 @@
 
 .black-text {
 	list-style: none;
+	line-height:1.6;
+	padding-left:10px;
+	padding-bottom:10px;
 }
+
+.text-container {
+	margin-top:10%;
+	width: 30%;
+	margin-left:45%;
+	margin-right:5%;
+}
+
+.text-container-left {
+	margin-top:8%;
+	width: 30%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+
