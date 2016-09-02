@@ -12,12 +12,13 @@
   <meta name="author" content="Matthew Neal, Tatiana Roga, Alex Murphy, Fae Daunt">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Oxygen:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
 
   <link rel="stylesheet" href="css/styles.css">  
    <link rel="stylesheet" href="css/changes_fae.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
- <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Oxygen:400,700" rel="stylesheet">
+
 </head>
 <body>	

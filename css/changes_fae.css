@@ -191,6 +191,85 @@ p {
 	pointer-events: none;
 }
 
+.landing {
+	display: table;
+    border-bottom: 1px solid #ff9f38;
+}
+
+.leftQuote, .landingImage, .rightQuote {
+	display: table-cell;
+	position: relative;
+}
+.leftQuote,.rightQuote {
+	background: #000;
+	width: 20%;
+	vertical-align: middle;
+	padding: 0 20px;
+	font-size: 2rem;
+    text-transform: uppercase;
+    color: #aaa;
+    font-family: Oswald, sans-serif;
+}
+
+.leftQuote a,.rightQuote a {
+	color:#b82b14;
+	position: relative;
+	font-family: Oxygen, sans-serif;
+	 font-size: 0.7em;
+}
+
+.landingImage:before, .landingImage:after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 83px;
+	left: 0;
+	background: url(../img/leftFade.png);
+	top: 0;
+}
+
+.landingImage:after {
+	right: 0;
+	left: auto;
+	background: url(../img/rightFade.png);
+}
+
+.quoteHolder {
+	position: relative;
+	 font-family: Oswald, sans-serif;
+}
+
+.leftQuote .quoteHolder:after, .rightQuote .quoteHolder:after, .leftQuote .quoteHolder:before, .rightQuote .quoteHolder:before {
+  content:url('../img/redHorizon.png'); /* with class ModalCarrot ??*/
+  position:absolute; /*or absolute*/
+  bottom: -35px;
+  left: 0;
+}
+
+.leftQuote .quoteHolder:before, .rightQuote .quoteHolder:before {
+	bottom: auto;
+	top: -70px;
+}
+
+	.leftQuote,.rightQuote {
+		display: none;
+	}
+
+		.blog {
+    		max-width: none;
+    	}
+
+.mobile-twitter {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.mobile-twitter .twitter-container {
+	width: 100%;
+}
+
 @media screen and (max-width: 1002px) and (min-width: 320px) {
 	.white-border:before, .black-border:before {
 		margin-left:auto;
@@ -224,10 +303,22 @@ p {
 	    margin: 0 auto;
 	}
 
-
+	.mobile-twitter .twitter-container, .mobile-twitter.twitter-title {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (min-width: 700px) {
+	.twitter-title {
+		display: none;
+	}
+	.mobile-twitter {
+		display: block;
+		width: 100%;
+	}
+
 	.desktop {
 		display: inline;
 	}
@@ -255,12 +346,27 @@ p {
 		.text-container {
 		padding-top: 0;
 	}
+	.twitter-title {
+		display: block;
+	}
+
+
+.mobile-twitter {
+	display: none;
+}
 	.screenshot-flex .image-popup-no-margins {
 }
 
 @media screen and (min-width: 1050px) {
 	.image-popup-no-margins {
 		width: 50%;
+	}
+
+	.blog {
+		    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    display: block;
 	}
 	.shaman{
 	    display: block;
@@ -272,9 +378,16 @@ p {
 		width: 50%;
 		padding-top: 10px;
 	}
+
 }
 
 @media screen and (min-width: 1200px) {
+	.leftQuote,.rightQuote {
+		font-size: 1.5rem;
+	}
+	.leftQuote,.rightQuote {
+		display: table-cell;
+	}
 	.overview-container-hof {
 	    padding-bottom: 65%;
 	}

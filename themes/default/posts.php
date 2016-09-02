@@ -14,12 +14,23 @@
       </nav>
     </div>
 <div class="landing">
-
-
+    <div class="leftQuote">
+      <div class="quoteHolder">
+        "Hand of Fate might just be one of the most instantly-atmospheric games this reviewer has ever encountered" 
+          <a href="http://gameplanet.com.au/pc/reviews/g54f525d828582/Hand-of-Fate-review">- Chris Brown, Game Planet</a>
+        </div>
+    </div>
+      <div class="landingImage">
+        <img src="img/landing.png" alt="landing image" />
+      </div>
+    <div class="rightQuote">
+      <div class="quoteHolder">
+        "Defiant Deals a Winning Hand" 
+        <a href="http://gameinformer.com/games/hand_of_fate/b/pc/archive/2015/02/16/defiant-deals-a-winning-hand.aspx">- Daniel Tack, Game Informer</a>
+      </div>
   </div>
 </div>
 
-<div class="full-width-gradient"></div>
 <div class='home-background'>
   <div class="container">
     <div class="twitter-title">Latest Tweets
@@ -55,6 +66,12 @@
       </div>
     <?php endif; ?>
   </div>
+  </div>
+
+<div class="twitter-title mobile-twitter">Latest Tweets
+    <div class="twitter-container">
+      <a class="twitter-timeline" data-width="400" data-height="700" data-theme="dark" data-link-color="#a02626" href="https://twitter.com/DefiantDev">Tweets by DefiantDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
   </div>
 
   <div class='clear-float'></div>
