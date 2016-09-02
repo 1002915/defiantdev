@@ -153,12 +153,38 @@ p {
 	padding-top: 10%;
 }
 
+.desktop {
+	display: none;
+}
+
 .overview-container-hof, .key-features-container-hof {
     padding-bottom: 650px;
 }
 
 .rat-dude {
 	background-position: center;
+}
+
+.nav-flex {
+	background-color: #000;
+	position: relative;
+}
+
+.navigation {
+	padding: 0;
+}
+
+.nav-flex:after {
+	content: "";
+	background: url(../img/topBar.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 20px;
+	position: absolute;
+	bottom: -15px;
+	width: 100%;
+	height: 30px;
+	pointer-events: none;
 }
 
 @media screen and (max-width: 1002px) and (min-width: 320px) {
@@ -198,7 +224,9 @@ p {
 }
 
 @media screen and (min-width: 700px) {
-
+	.desktop {
+		display: inline;
+	}
 	.text-container {
 		padding-top: 0;
 	}
@@ -213,7 +241,7 @@ p {
 		width: 100%;
 		padding-top: 60px;
 	}
-	.screenshot-flex .image-popup-no-margins {
+	.image-popup-no-margins {
 		width: 33%;
 	}
 
@@ -224,6 +252,10 @@ p {
 		padding-top: 0;
 	}
 	.screenshot-flex .image-popup-no-margins {
+}
+
+@media screen and (min-width: 1050px) {
+	.image-popup-no-margins {
 		width: 50%;
 	}
 	.shaman{
@@ -252,6 +284,10 @@ p {
 		padding-bottom: 45%;
 	}
 
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+	li.black-text, p.white-text, p.red-text {
+	    font-size: 1em;
+	}
 }
 
 @media screen and (min-width: 1450px) {
