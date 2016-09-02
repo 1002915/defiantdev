@@ -93,10 +93,8 @@ html {
 .blog {
 	width:100%;
 	max-width: 700px;
-	margin: 0 auto;
 	box-sizing:border-box;
 	display:block;
-	float:left;
 	margin-left: 50px;
 	margin-right:40px;
 }
@@ -529,7 +527,6 @@ ul.black-text {
 .blog {
 	width: 100%;
 	max-width: 700px;
-	margin: 0 auto;
 	box-sizing: border-box;
 	display: block;
 }
@@ -762,9 +759,12 @@ ul.black-text {
 .blog {
 	width:100%;
 	max-width: 700px;
-	margin: 0 auto;
 	box-sizing:border-box;
 	display:block;
+}
+
+.clear-float {
+	clear: both;
 }
 
 .blog-entry-container {
@@ -862,6 +862,7 @@ ul.black-text {
     box-sizing: border-box;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+    float: right;
 }
 
 .twitter-timeline {

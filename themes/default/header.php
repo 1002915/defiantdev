@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/normalize.css">
 
   <link rel="stylesheet" href="css/styles.css">  
+   <link rel="stylesheet" href="css/changes_fae.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Oxygen:400,700" rel="stylesheet">
 </head>

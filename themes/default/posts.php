@@ -1,25 +1,32 @@
 <?php theme_include('header'); ?>
-
-<div class="landing">
-
     <div class="navigation">
       <nav>
-      <img class="mobile-logo" src="img/logo.png">
-        <ul class="nav-flex">
-          <li><a href="index.php"><img class="nav-logo" src="img/logo.png"></a></li>
-          <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
-          <li ><a class="nav-button-small" href="hof1.html">HAND OF FATE 1</a></li>
-          <li ><a class="nav-button-small" href="hof2.html">HAND OF FATE 2</a></li>
-          <li ><a class="nav-button-small" href="about.php">ABOUT</a></li>
-        </ul>
+      <span class="logoCont">
+        <img class="mobile-logo" src="img/logo.png">
+      </span>
+      <ul class="nav-flex">
+        <li><a href="index.php"><img class="nav-logo" src="img/logo.png"></a></li>
+        <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
+        <li ><a class="nav-button-small" href="hof1.html">H<span class="desktop">AND </span>O<span class="desktop">F </span>F<span class="desktop">ATE </span>1</a></li>
+        <li ><a class="nav-button-small" href="hof2.html">H<span class="desktop">AND </span>O<span class="desktop">F </span>F<span class="desktop">ATE </span>2</a></li>
+        <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
+      </ul> 
       </nav>
     </div>
+<div class="landing">
+
+
   </div>
 </div>
 
 <div class="full-width-gradient"></div>
 <div class='home-background'>
   <div class="container">
+    <div class="twitter-title">Latest Tweets
+    <div class="twitter-container">
+      <a class="twitter-timeline" data-width="400" data-height="700" data-theme="dark" data-link-color="#a02626" href="https://twitter.com/DefiantDev">Tweets by DefiantDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
   <div class="blog">
     <div class="blog-box-heading">Latest News</div> 
       <div class="blog-entry-container">
@@ -49,11 +56,7 @@
     <?php endif; ?>
   </div>
   </div>
-  <div class="twitter-title">Latest Tweets
-    <div class="twitter-container">
-      <a class="twitter-timeline" data-width="400" data-height="700" data-theme="dark" data-link-color="#a02626" href="https://twitter.com/DefiantDev">Tweets by DefiantDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-  </div>
+
   <div class='clear-float'></div>
 
   <?php theme_include('footer'); ?>
