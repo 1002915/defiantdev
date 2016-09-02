@@ -1,3 +1,7 @@
+html, .aboutPage {
+	height: 100%;
+}
+
 .youtube-trailer-box-hof2 {
 	max-width: 700px;
 	height: 430px;
