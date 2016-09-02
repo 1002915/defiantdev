@@ -49,7 +49,7 @@ youtube-iframe {
 
 .trailer-text-area h2:before {
 	bottom: auto;
-	top: -50px;
+	top: -70px;
 }
 
 .overview-container {
@@ -84,6 +84,10 @@ youtube-iframe {
 	height: 1px;
 	background: #fff;
 	margin-bottom: 20px;
+}
+
+.white-border.full-width:before, .black-border.full-width:before {
+	width: 100%;
 }
 
 .white-border-bottom:after, .black-border-bottom:after {
@@ -126,6 +130,9 @@ youtube-iframe {
 	text-align: left;
 }
 
+h2,h3 {
+    font-family: 'Oswald', sans-serif;
+}
 
 @media screen and (max-width: 1002px) and (min-width: 320px) {
 	.white-border:before, .black-border:before {
