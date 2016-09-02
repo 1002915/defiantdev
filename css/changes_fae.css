@@ -126,6 +126,11 @@ youtube-iframe {
 	background: url(../img/repeatingBg.jpg);
 }
 
+.screenshot-flex-hof .white-border:before {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .overview-container h3 {
 	text-align: left;
 }
@@ -142,6 +147,18 @@ p {
     padding-top: 30%;
     padding-bottom: 70%;
     margin-bottom: -40px;
+}
+
+.text-container {
+	padding-top: 10%;
+}
+
+.overview-container-hof, .key-features-container-hof {
+    padding-bottom: 650px;
+}
+
+.rat-dude {
+	background-position: center;
 }
 
 @media screen and (max-width: 1002px) and (min-width: 320px) {
@@ -176,15 +193,22 @@ p {
 	.youtube-trailer-box-hof2 {
 	    margin: 0 auto;
 	}
+
+
 }
 
 @media screen and (min-width: 700px) {
+
+	.text-container {
+		padding-top: 0;
+	}
 	.shaman{
 	    display: none;
 	}
 	.trailer-text-area.overview h3 {
 		text-align: left;
 	}
+
 	.screenshot-flex {
 		width: 100%;
 		padding-top: 60px;
@@ -192,12 +216,13 @@ p {
 	.screenshot-flex .image-popup-no-margins {
 		width: 33%;
 	}
-	.screenshots-section-hof {
-		padding-bottom: 50%;
-	}
+
 }
 
 @media screen and (min-width: 1050px) {
+		.text-container {
+		padding-top: 0;
+	}
 	.screenshot-flex .image-popup-no-margins {
 		width: 50%;
 	}
@@ -214,17 +239,27 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
+	.overview-container-hof {
+	    padding-bottom: 65%;
+	}
+	 .key-features-container-hof {
+		padding-bottom: 57%;
+	}
 	li.black-text, p.white-text, p.red-text {
 	    font-size: 1em;
 	}
 	.screenshots-section-hof {
 		padding-bottom: 45%;
 	}
+
 }
 
 @media screen and (min-width: 1450px) {
 	li.black-text, p.white-text, p.red-text {
 	    font-size: 1em;
+	}
+	.key-features-container-hof .text-container-left {
+		padding-left: 200px;
 	}
 	.trailer-text-area.overview {
 		bottom: 20px;
