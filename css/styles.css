@@ -327,9 +327,10 @@ html {
 }
 
 .platform-item {
-	width:15%;
-	height:15%;
+	display: inline-block;
+	width: auto;
 }
+
 
 .coming-soon {
 	width:100%;
@@ -720,13 +721,13 @@ ul.black-text {
 
 @media screen and (min-width: 320px ) and (max-width: 700px) {
 	.landing-hof-1 {
-		padding-bottom:130%;
+	padding-bottom: 70%;
 	}
 }
 
 @media screen and (min-width: 320px ) and (max-width: 500px) {
 	.landing-hof-1 {
-		padding-bottom:200%;
+		padding-bottom: 136%;
 		background-image: url(../img/hofmobile.png);
 	}
 }

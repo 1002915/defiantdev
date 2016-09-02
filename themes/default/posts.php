@@ -10,6 +10,7 @@
         <li ><a class="nav-button-small" href="hof1.html">H<span class="desktop">AND </span>O<span class="desktop">F </span>F<span class="desktop">ATE </span>1</a></li>
         <li ><a class="nav-button-small" href="hof2.html">H<span class="desktop">AND </span>O<span class="desktop">F </span>F<span class="desktop">ATE </span>2</a></li>
         <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
+        <li ><a class="nav-button-small" href="presskit/">PRESSKIT</a></li>
       </ul> 
       </nav>
     </div>
