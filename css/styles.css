@@ -69,6 +69,7 @@ p.red-text {
 
 p.white-text {
 	font-family: 'Oswald', sans-serif;
+	color: #f2f2f2;
 }
 
 p.black-text {
@@ -299,7 +300,7 @@ ul.black-text {
 	box-sizing:border-box;
 	margin-top:-3%;
 	background-image: url(../img/ratguy.png);
-	background-size: cover;
+	background-size: contain;;
 	background-repeat:no-repeat;
 	width:50%;
 	padding-bottom: 52%;
@@ -612,7 +613,6 @@ ul.black-text {
 	.trailer-text-area-hof {
 		width:100%;
 		text-align: center;
-		margin-top:30px;
 	}
 
 	.trailer-box {
@@ -832,7 +832,7 @@ ul.black-text {
 
 .screenshot-flex, .screenshot-flex-hof {
 	justify-content: center;
-	width:55%;
+	width:80%;
 	flex-wrap: wrap;
 	margin-top:-10%;
 }
