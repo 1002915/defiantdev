@@ -59,7 +59,6 @@ youtube-iframe {
 }
 
 .trailer-text-area.overview h3 {
-	text-align: left;
 	margin: 20px 0;
 	padding: 20px 0 0 ;
 }
@@ -111,9 +110,95 @@ youtube-iframe {
 	background: #000;
 }
 
-.key-features-container {
+.key-features-container{
 	padding-bottom:600px;
+	top: -20px;
 }
+.overview-container {
+	padding-bottom: 400px;
+}
+
+.screenshots-section { 
+	background: url(../img/repeatingBg.jpg);
+}
+
+.overview-container h3 {
+	text-align: left;
+}
+
+
+@media screen and (max-width: 1002px) and (min-width: 320px) {
+	.white-border:before, .black-border:before {
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.white-border-bottom:after, .black-border-bottom:after {
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.white-border-under:after {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.overview-container h3 {
+		text-align: center;
+	}
+	.trailer-text-area {
+		text-align: center;
+	}
+	.trailer-text-area h2:after, .trailer-text-area h2:before{
+	  margin-left: 50%;
+	  left: -125px;
+	}
+
+	.trailer-text-area .red-text {
+		text-align: center;
+	}
+	.youtube-trailer-box-hof2 {
+	    margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.shaman{
+	    display: none;
+	}
+	.trailer-text-area.overview h3 {
+		text-align: left;
+	}
+	.screenshot-flex {
+		width: 100%;
+		padding-top: 60px;
+	}
+	.image-popup-no-margins {
+		width: 33%;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	.image-popup-no-margins {
+		width: 50%;
+	}
+	.shaman{
+	    display: block;
+	}
+	.overview-container, .key-features-container {
+		padding-bottom: 56.25%;
+	}
+	.screenshot-flex {
+		width: 50%;
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+	li.black-text, p.white-text, p.red-text {
+	    font-size: 1em;
+	}
+}
+
 @media screen and (min-width: 1450px) {
 	li.black-text, p.white-text, p.red-text {
 	    font-size: 1em;
