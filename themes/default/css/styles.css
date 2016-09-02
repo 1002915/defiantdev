@@ -1,6 +1,6 @@
 html {
 	background-color: #000000;
-	 background: url(../img/hof2background.jpg) no-repeat center center fixed; 
+	 background: url('../img/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,7 +60,7 @@ html {
 }
 
 .landing-hof-2 {
-	background-image: url(../img/landinghof2.jpg);
+	background-image: url('../img/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:top;
