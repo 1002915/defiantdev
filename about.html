@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/card.css">
   <link rel="stylesheet" href="css/changes_fae.css">
-
   <link rel="stylesheet" href="css/styles.css">  
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
@@ -39,24 +38,41 @@
     background-image: url('img/content-box_03.png');
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
-    width:500px;  
+    background-repeat: repeat; 
     margin:0 auto;
     padding:40px;
     color:#fff;
-    height:707px;
+    min-height:707px;
     line-height: 1.5;
   }
 
   .border-top {
     border-top: 1px solid #fff;
     width:185px;
-    margin-top: 40px
+    margin-top: 40px;
   }
 
   .white {
   	color: #fff;
-  	
+  }
+
+  .sticky-footer {
+  	height: 100%;
+  	margin-bottom: 130px;
+  }
+
+  .sticky-footer-pos {
+  	margin-top: -130px;
+  }
+
+  @media screen and (max-width: 2560px){
+    .about-box {width:563px;}
+
+  }
+
+  @media screen and (max-width: 1440px){
+    .about-box {width:500px;}
+
   }
 
   @media screen and (max-width: 700px){
@@ -68,41 +84,42 @@
 
 <body>
   <div id="container">
-      <div class="navigation-background">
-        <div class="navigation">
-          <nav>
-          	<a href='index.php'>
-            	<img class="mobile-logo" src="img/logo.png" alt='defiant development logo'>
-        	</a>
-            <ul class="nav-flex">
-              <li><a href="http://www.defiantdev.com/"><img class="nav-logo" src="img/logo.png"></a></li>
-              <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
-              <li ><a class="nav-button-small" href="hof1.html">HAND OF FATE 1</a></li>
-              <li ><a class="nav-button-small" href="hof2.html">HAND OF FATE 2</a></li>
-              <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
-            </ul> 
-          </nav>
-        </div>
-    </div>
-    <div class='about-background'>
-      <div class='about-box'>
-        <div class='border-top'>
-          <h1>About</h1>
-        </div>
-        <div class=''>
-          <p>Defiant Development is an independent game development studio founded in 2010 by a bunch of grizzled industry veterans seeking a better life. We believe that in order to make great games, you put together a great team and give them a great place to work. Defiant is based out of Brisbane, Australia, because the fantastic weather makes up for the global isolation.</p>
-        </div>
-        <div class='border-top'>
-          <h2 class='white'>Our Games</h2>
-        </div>
-        <div class=''>
-          <p>Defiant has developed a range of games for mobile, PC, Augmented Reality and console platforms. You might know us from Rocket Bunnies (iOS and Android), Ski Safari (iOS and Android), Heroes Call (iOS and Android) or Hand of Fate (PC, PS4 and Xbox One).<br><br> 
-          Our games are born from the passions of our team, and right now our team is really into boardgames. Ask us about our collection some time. </p>
-        </div>
-      </div>
-    </div>
-
-    <footer>
+  	<div class='sticky-footer'>
+        <div class="navigation-background">
+	        <div class="navigation">
+	          <nav>
+	          	<a href='index.php'>
+	            	<img class="mobile-logo" src="img/logo.png" alt='defiant development logo'>
+	        	</a>
+	            <ul class="nav-flex">
+	              <li><a href="http://www.defiantdev.com/"><img class="nav-logo" src="img/logo.png"></a></li>
+	              <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
+	              <li ><a class="nav-button-small" href="hof1.html">HAND OF FATE 1</a></li>
+	              <li ><a class="nav-button-small" href="hof2.html">HAND OF FATE 2</a></li>
+	              <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
+	            </ul> 
+	          </nav>
+	        </div>
+    	</div>
+	    <div class='about-background'>
+	      <div class='about-box'>
+	        <div class='border-top'>
+	          <h1>About</h1>
+	        </div>
+	        <div class=''>
+	          <p>Defiant Development is an independent game development studio founded in 2010 by a bunch of grizzled industry veterans seeking a better life. We believe that in order to make great games, you put together a great team and give them a great place to work. Defiant is based out of Brisbane, Australia, because the fantastic weather makes up for the global isolation.</p>
+	        </div>
+	        <div class='border-top'>
+	          <h2 class='white'>Our Games</h2>
+	        </div>
+	        <div class=''>
+	          <p>Defiant has developed a range of games for mobile, PC, Augmented Reality and console platforms. You might know us from Rocket Bunnies (iOS and Android), Ski Safari (iOS and Android), Heroes Call (iOS and Android) or Hand of Fate (PC, PS4 and Xbox One).<br><br> 
+	          Our games are born from the passions of our team, and right now our team is really into boardgames. Ask us about our collection some time. </p>
+	        </div>
+	      </div>
+	    </div>
+	</div>
+    <footer class='sticky-footer-pos'>
     <div class="footer-container-hof2">
       <img class="footer-logo" src="img/footerlogo.png">
       <div class="footer-text">
