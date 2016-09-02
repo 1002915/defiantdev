@@ -3,6 +3,352 @@
 }
 
 html {
+	background-color: #000000;
+	 background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.home-background {
+	background: url(../img/background.jpg);
+    background-size: cover;
+    /* margin-top: -200px; */
+    border-top: 1px solid #623e18;
+    padding-top: 40px;
+}
+
+.page-content {
+	width: 100%;
+	background-color: #000000;
+}
+
+.navigation {
+	width:100%;
+	box-sizing:border-box;
+	padding:10px;
+
+}
+
+.navigation nav ul li {
+
+	list-style:none;
+	margin-right:20px;
+}
+
+.nav-flex {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:left;
+}
+
+.news-logo, .hof-logo, .hof2-logo, .about-logo {
+	width: 49px;
+	height: 49px;
+	box-sizing:border-box;
+	margin:10px;
+}
+.nav-logo {
+	width: 153px;
+	height: 34px;
+	box-sizing:border-box;
+	margin:10px;
+}
+
+
+.landing-hof-2 {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+	width: 100%;
+	display:block;
+	position:relative;
+	padding-bottom:56.25%;
+	height:0px;
+	overflow:visible;
+}
+/*
+.container::before {
+	background-image: url('../img/gradient.png');
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    height:182px;
+}
+*/
+.blog {
+	width:100%;
+	max-width: 700px;
+	box-sizing:border-box;
+	display:block;
+}
+
+.blog-entry-container {
+	box-sizing:border-box;
+	padding:10px;
+	margin:10px 10px 20px 10px;
+}
+
+
+.blog-box-heading {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 1.6em;
+	color: #f2f2f2;
+	padding:10px;
+	margin:0px 10px 0px 10px;
+	box-sizing:border-box;
+	border-bottom: 1px solid;
+	border-color: #840200;
+}
+
+.blog-title {
+	font-size: 1.5em;
+	color: #f2f2f2;
+}
+
+.blog-content p {
+	color: #f2f2f2;
+}
+
+.bottom-blog-border {
+	width: 100%;
+
+}
+
+.footer-container {
+	box-sizing:border-box;
+	width:100%;
+	height:130px;
+}
+
+.footer-container-hof2 {
+	box-sizing:border-box;
+	width:100%;
+	height:130px;
+	background-color:black;
+}
+
+.footer-logo {
+	width: 100px;
+	display:block;
+	margin: 0 auto;
+}
+
+.footer-text {
+	width: 100%;
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 0.8em;
+}
+
+.nav-button-small {
+	font-family: 'Oswald', sans-serif;
+	color: #f2f2f2;
+	height: 44px;
+	box-sizing:border-box;
+	margin:10px;
+	font-size:1em;
+	font-weight: 700;
+	line-height:3em;
+}
+
+.nav-button-small:hover {
+	color:white;
+}
+
+.link-icon {
+	height: 44px;
+	box-sizing:border-box;
+	margin:10px;
+	font-size:1em;
+	font-weight: 700;
+	line-height:3em;
+}
+
+.twitter-container {
+	width: 300px;
+	max-height: 800px;
+	margin-top:10px;
+}
+
+.twitter-title {
+	font-size: 1.6em;
+    color: #f2f2f2;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    width:300px;
+	float: left;
+	height:auto;
+    margin-left: 40px;
+
+}
+
+.twitter-timeline {
+	max-height: 1400px;
+	overflow: scroll;
+	background-color: rgba(0,0,0,0);
+}
+
+.mobile-logo {
+	width: 100%;
+	display:none;
+	width: 153px;
+	height: 34px;
+	box-sizing:border-box;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 320px ) and (max-width: 700px) {
+	.twitter-container, .twitter-title {
+		display:none;
+	}
+
+	.nav-logo {
+		display:none;
+	}
+
+	.nav-flex {
+		justify-content:space-around;
+	}
+
+	.mobile-logo {
+		display:block;
+	}
+
+}
+
+.full-width-gradient {
+	width:100%;
+	height:0px;
+	background-image: url('../img/gradient.png');
+    background-size: cover;
+    content: "";
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-bottom:10%;
+    z-index:0;
+}
+
+.hof-2-logo {
+	width: 20%;
+	margin-left:5%;
+	margin-top:2%;
+}
+
+.youtube-trailer-box {
+	width: 100%;
+	box-sizing:border-box;
+	margin:0% 2% 2% 2%;
+	padding: 10px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.trailer-text-area {
+	width: 40%;
+	color:white;
+	padding:10px;
+	margin:10px;
+	box-sizing:border-box;
+
+}
+
+.overview-container, .screenshots-section, .key-features-container {
+	width:100%;
+	position:relative;
+	overflow:visible;
+	box-sizing:border-box;
+	padding-top:10%;
+	padding-bottom:56.25%;
+	display:flex;
+	height:0px;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+.overview-container {
+	background-image: url(../img/overviewbackground.png);
+}
+
+.key-features-container {
+	background-image: url(../img/keyfeatures.png);
+}
+
+.coming-soon-container {
+	background-color:black;
+	margin-top: -20%;
+	padding-top: 20%;
+	box-sizing:border-box;
+	z-index: -1;
+	width:100%;
+	padding-bottom:10%;
+}
+
+.girl {
+	background-image: url(../img/female.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:30%;
+	padding-bottom:45%;
+	content: "";
+}
+
+.shaman {
+	background-image: url(../img/shaman.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:55%;
+	padding-bottom:80%;
+	margin-top: -27%;
+	content: "";
+}
+
+.platform-flex {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+.platform-item {
+	display: inline-block;
+	width: auto;
+}
+
+
+.coming-soon {
+	width:100%;
+	color:#f2f2f2;
+	font-size: 3em;
+	text-align: center;
+	margin:0 auto;
+	float:left;
+	display:block;
+	margin-bottom:40px;
+	font-weight: 700;
+}
+
+html {
 	background-color: #1d1d1d;
 }
 
@@ -19,14 +365,14 @@ h3 {
 	font-weight: 400;
 	font-size: 2em;
 	margin-bottom: 10px;
-	text-align: center;
 	color: #d4d4d4;
+	text-align: center;
 }
 
 h4 {
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 400;
-	font-size: 2.5em;
+	font-size: 2em;
 	margin-bottom: 10px;
 	color: #1d1d1d;
 	margin-top: -9%;
@@ -51,7 +397,7 @@ p.red-text {
 
 @media screen and (min-width: 1921px ) and (max-width: 3000px) {
 	p.white-text, p.black-text, li.black-text, p.red-text {
-		font-size:2em;
+		font-size:1.3em;
 	}
 
 	h4, h2 {
@@ -71,7 +417,7 @@ p.red-text {
 
 @media screen and (min-width: 1200px ) and (max-width: 1450px) {
 	li.black-text, p.white-text, p.red-text{
-		font-size: 1.4em;
+		font-size: 1em;
 	}
 }
 
@@ -147,14 +493,8 @@ ul.black-text {
 }
 
 .landing {
-	background-image: url(../img/landing.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
 	width: 100%;
-	display: block;
-	position: relative;
-	padding-bottom: 56.25%;
+	height: auto;
 }
 
 .landing-hof-2 {
@@ -186,7 +526,6 @@ ul.black-text {
 .blog {
 	width: 100%;
 	max-width: 700px;
-	margin: 0 auto;
 	box-sizing: border-box;
 	display: block;
 	float:left;
@@ -385,16 +724,7 @@ ul.black-text {
 	justify-content:left;
 }
 
-.landing {
-	background-image: url(../img/landing.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position:top;
-	width: 100%;
-	display:block;
-	position:relative;
-	padding-bottom:56.25%;
-}
+
 
 .landing-hof-2 {
 	background-image: url(../img/landinghof2.jpg);
@@ -411,13 +741,13 @@ ul.black-text {
 
 @media screen and (min-width: 320px ) and (max-width: 700px) {
 	.landing-hof-1 {
-		padding-bottom:130%;
+	padding-bottom: 70%;
 	}
 }
 
 @media screen and (min-width: 320px ) and (max-width: 500px) {
 	.landing-hof-1 {
-		padding-bottom:200%;
+		padding-bottom: 136%;
 		background-image: url(../img/hofmobile.png);
 	}
 }
@@ -425,11 +755,14 @@ ul.black-text {
 .blog {
 	width:100%;
 	max-width: 700px;
-	margin: 0 auto;
 	box-sizing:border-box;
 	display:block;
 	margin-left: 50px;
 	margin-right:40px;
+}
+
+.clear-float {
+	clear: both;
 }
 
 .blog-entry-container {
@@ -527,8 +860,12 @@ ul.black-text {
     box-sizing: border-box;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+<<<<<<< HEAD
     float: left;
     margin-left: 40px;
+=======
+    float: right;
+>>>>>>> master
 }
 
 .twitter-timeline {
@@ -559,8 +896,12 @@ ul.black-text {
 		justify-content:space-around;
 	}
 
+	.logoCont {
+		display: block;
+		width: 100%;
+	}
 	.mobile-logo {
-		display:block;
+		display: block;
 	}
 
 }
@@ -593,6 +934,7 @@ ul.black-text {
 	height:0;
 	margin-top: 5%;
 	margin-bottom: 15%;
+	max-width: 960px;;
 }
 
 .youtube-trailer-box-hof2 {
@@ -727,8 +1069,8 @@ ul.black-text {
 	margin-top: -10%;
 }
 
-.key-features-container-hof {
-	margin-top: -16%;
+.key-features-container-hof {;;
+	margin-top: -14%;
 }
 
 .coming-soon-container {
@@ -786,7 +1128,10 @@ ul.black-text {
 }
 
 .screenshots-section-hof {
-	padding-top: 25%;
+	padding-top: 15%;
+	margin-top: -20%;
+	margin-bottom: 10%;
+	padding-bottom: 70;
 }
 
 .key-features-container {
@@ -944,9 +1289,13 @@ ul.black-text {
 	left:0;
 }
 
+.logoCont {
+	background: #000;
+}
+
 .white-border {
 	border-top: 1px solid #d4d4d4;
-	margin-top:20px;
+	margin-top: 20px;;
 }
 
 .white-border-bottom {
@@ -968,4 +1317,3 @@ ul.black-text {
 .red-border-bottom {
 	border-bottom: 1px solid #b82b14;
 }
-

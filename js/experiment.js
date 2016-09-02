@@ -54,5 +54,8 @@ function createACard(which)
     return cardDiv;
 }
 
+if( $(window).width() > 1000)
+{
+  window.addEventListener('load', init, false);
+}  
 
-window.addEventListener('load', init, false);

@@ -1,3 +1,7 @@
+html, .aboutPage {
+	height: 100%;
+}
+
 .youtube-trailer-box-hof2 {
 	max-width: 700px;
 	height: 430px;
@@ -49,7 +53,7 @@ youtube-iframe {
 
 .trailer-text-area h2:before {
 	bottom: auto;
-	top: -50px;
+	top: -70px;
 }
 
 .overview-container {
@@ -59,7 +63,6 @@ youtube-iframe {
 }
 
 .trailer-text-area.overview h3 {
-	text-align: left;
 	margin: 20px 0;
 	padding: 20px 0 0 ;
 }
@@ -87,6 +90,10 @@ youtube-iframe {
 	margin-bottom: 20px;
 }
 
+.white-border.full-width:before, .black-border.full-width:before {
+	width: 100%;
+}
+
 .white-border-bottom:after, .black-border-bottom:after {
 	display: block;
 	content: "";
@@ -111,12 +118,324 @@ youtube-iframe {
 	background: #000;
 }
 
-.key-features-container {
+.key-features-container{
 	padding-bottom:600px;
+	top: -20px;
 }
+.overview-container {
+	padding-bottom: 400px;
+}
+
+.screenshots-section { 
+	background: url(../img/repeatingBg.jpg);
+}
+
+.screenshot-flex-hof .white-border:before {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.overview-container h3 {
+	text-align: left;
+}
+
+h1, h2,h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.screenshots-section-hof {
+    padding-top: 30%;
+    padding-bottom: 70%;
+    margin-bottom: -40px;
+}
+
+.text-container {
+	padding-top: 10%;
+}
+
+.desktop {
+	display: none;
+}
+
+.overview-container-hof, .key-features-container-hof {
+    padding-bottom: 650px;
+}
+
+.rat-dude {
+	background-position: center;
+}
+
+.nav-flex {
+	background-color: #000;
+	position: relative;
+}
+
+.navigation {
+	padding: 0;
+}
+
+.nav-flex:after {
+	content: "";
+	background: url(../img/topBar.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 20px;
+	position: absolute;
+	bottom: -15px;
+	width: 100%;
+	height: 30px;
+	pointer-events: none;
+}
+
+.landing {
+	display: table;
+    border-bottom: 1px solid #ff9f38;
+}
+
+.leftQuote, .landingImage, .rightQuote {
+	display: table-cell;
+	position: relative;
+}
+.leftQuote,.rightQuote {
+	background: #000;
+	width: 20%;
+	vertical-align: middle;
+	padding: 0 20px;
+	font-size: 2rem;
+    text-transform: uppercase;
+    color: #aaa;
+    font-family: Oswald, sans-serif;
+}
+
+.leftQuote a,.rightQuote a {
+	color:#b82b14;
+	position: relative;
+	font-family: Oxygen, sans-serif;
+	 font-size: 0.7em;
+}
+
+.landingImage:before, .landingImage:after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 83px;
+	left: 0;
+	background: url(../img/leftFade.png);
+	top: 0;
+}
+
+.landingImage:after {
+	right: 0;
+	left: auto;
+	background: url(../img/rightFade.png);
+}
+
+.quoteHolder {
+	position: relative;
+	 font-family: Oswald, sans-serif;
+}
+
+.leftQuote .quoteHolder:after, .rightQuote .quoteHolder:after, .leftQuote .quoteHolder:before, .rightQuote .quoteHolder:before {
+  content:url('../img/redHorizon.png'); /* with class ModalCarrot ??*/
+  position:absolute; /*or absolute*/
+  bottom: -35px;
+  left: 0;
+}
+
+.leftQuote .quoteHolder:before, .rightQuote .quoteHolder:before {
+	bottom: auto;
+	top: -70px;
+}
+
+	.leftQuote,.rightQuote {
+		display: none;
+	}
+
+		.blog {
+    		max-width: none;
+    	}
+
+.mobile-twitter {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.mobile-twitter .twitter-container {
+	width: 100%;
+}
+
+.platform-item { 
+	width: auto;
+	max-width: 20%;
+	margin: 0 2%;
+}
+
+.platform-item img {
+	max-width: 100%;
+
+}
+
+.upperContainer {
+	margin-top: -10%;
+		background: none;
+		padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1002px) and (min-width: 320px) {
+	.white-border:before, .black-border:before {
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.platform-item {
+		max-width: 40%;
+	}
+
+	.white-border-bottom:after, .black-border-bottom:after {
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.white-border-under:after {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.overview-container h3 {
+		text-align: center;
+	}
+	.trailer-text-area {
+		text-align: center;
+	}
+	.trailer-text-area h2:after, .trailer-text-area h2:before{
+	  margin-left: 50%;
+	  left: -125px;
+	}
+
+	.trailer-text-area .red-text {
+		text-align: center;
+	}
+	.youtube-trailer-box-hof2 {
+	    margin: 0 auto;
+	}
+
+	.mobile-twitter .twitter-container, .mobile-twitter.twitter-title {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.twitter-title {
+		display: none;
+	}
+	.mobile-twitter {
+		display: block;
+		width: 100%;
+	}
+
+	.desktop {
+		display: inline;
+	}
+	.text-container {
+		padding-top: 0;
+	}
+	.shaman{
+	    display: none;
+	}
+	.trailer-text-area.overview h3 {
+		text-align: left;
+	}
+
+	.screenshot-flex {
+		width: 100%;
+		padding-top: 60px;
+	}
+	.image-popup-no-margins {
+		width: 33%;
+	}
+
+}
+
+@media screen and (min-width: 1050px) {
+		.text-container {
+		padding-top: 0;
+	}
+	.twitter-title {
+		display: block;
+	}
+
+
+.mobile-twitter {
+	display: none;
+}
+	.screenshots-section-hof {
+		padding-bottom: 60%;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	.image-popup-no-margins {
+		width: 50%;
+	}
+
+	.blog {
+		    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    display: block;
+	}
+	.shaman{
+	    display: block;
+	}
+	.overview-container, .key-features-container {
+		padding-bottom: 56.25%;
+	}
+	.screenshot-flex {
+		width: 50%;
+		padding-top: 10px;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.leftQuote,.rightQuote {
+		font-size: 1.5rem;
+	}
+	.leftQuote,.rightQuote {
+		display: table-cell;
+	}
+	.overview-container-hof {
+	    padding-bottom: 65%;
+	}
+	 .key-features-container-hof {
+		padding-bottom: 57%;
+	}
+	li.black-text, p.white-text, p.red-text {
+	    font-size: 1em;
+	}
+	.screenshots-section-hof {
+		padding-bottom: 65%;
+	}
+
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+	li.black-text, p.white-text, p.red-text {
+	    font-size: 1em;
+	}
+}
+
 @media screen and (min-width: 1450px) {
 	li.black-text, p.white-text, p.red-text {
 	    font-size: 1em;
+	}
+	.key-features-container-hof .text-container-left {
+		padding-left: 200px;
 	}
 	.trailer-text-area.overview {
 		bottom: 20px;
@@ -127,6 +446,9 @@ youtube-iframe {
 	}
 	.screenshot-flex, .screenshot-flex-hof {
 	    width: 55%;
+	}
+	.screenshots-section-hof {
+		padding-bottom: 45%;
 	}
 }
 

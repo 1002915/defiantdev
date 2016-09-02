@@ -15,9 +15,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/card.css">
-  <link rel="stylesheet" href="css/changes_fae.css">
+
   <link rel="stylesheet" href="css/styles.css">  
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/changes_fae.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Oxygen:400,700" rel="stylesheet">
 </head>
@@ -31,11 +32,15 @@
     background-image: url('img/about-background-image.jpeg');
     background-size: cover;
     padding:50px;
-    
+   height: 100%; 
   }
 
   .about-box {
+<<<<<<< HEAD
     background-image: url('img/mobile-about-content_06.png');
+=======
+    width:auto; height:auto; background-image: url('img/mobile-about-content_06.png');
+>>>>>>> master
     background-size: cover;
     background-position: center;
     background-repeat: repeat; 
@@ -58,7 +63,7 @@
 
   .sticky-footer {
   	height: 100%;
-  	margin-bottom: 130px;
+  	padding-bottom: 130px;
   }
 
   .sticky-footer-pos {
@@ -82,9 +87,16 @@
 
   }
 
+  .aboutHeader {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #ffff;
+    margin: 0 0 10px;
+  }
+
 </style>
 
-<body>
+<body class="aboutPage">
   <div id="container">
   	<div class='sticky-footer'>
         <div class="navigation-background">
@@ -94,25 +106,26 @@
 	            	<img class="mobile-logo" src="img/logo.png" alt='defiant development logo'>
 	        	</a>
 	            <ul class="nav-flex">
-	              <li><a href="http://www.defiantdev.com/"><img class="nav-logo" src="img/logo.png"></a></li>
-	              <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
-	              <li ><a class="nav-button-small" href="hof1.html">HAND OF FATE 1</a></li>
-	              <li ><a class="nav-button-small" href="hof2.html">HAND OF FATE 2</a></li>
-	              <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
+                <li><a href="index.php"><img class="nav-logo" src="img/logo.png"></a></li>
+                <li ><a class="nav-button-small" href="index.php">NEWS</a></li>
+                <li ><a class="nav-button-small" href="hof1.html">H<span class="desktop">AND </span>O<span class="desktop">F </span>F<span class="desktop">ATE </span>1</a></li>
+                <li ><a class="nav-button-small" href="hof2.html">H<span class="desktop">AND </span>O<span class="desktop">F </span>F<span class="desktop">ATE </span>2</a></li>
+                <li ><a class="nav-button-small" href="about.html">ABOUT</a></li>
+                <li ><a class="nav-button-small" href="presskit/">PRESSKIT</a></li>
 	            </ul> 
 	          </nav>
 	        </div>
     	</div>
 	    <div class='about-background'>
 	      <div class='about-box'>
-	        <div class='border-top'>
-	          <h1>About</h1>
+	        <div class='white-border'>
+	          <h1 class='aboutHeader'>About</h1>
 	        </div>
 	        <div class=''>
 	          <p>Defiant Development is an independent game development studio founded in 2010 by a bunch of grizzled industry veterans seeking a better life. We believe that in order to make great games, you put together a great team and give them a great place to work. Defiant is based out of Brisbane, Australia, because the fantastic weather makes up for the global isolation.</p>
 	        </div>
-	        <div class='border-top'>
-	          <h2 class='white'>Our Games</h2>
+	        <div class='white-border'>
+	          <h2 class='aboutHeader'>Our Games</h2>
 	        </div>
 	        <div class=''>
 	          <p>Defiant has developed a range of games for mobile, PC, Augmented Reality and console platforms. You might know us from Rocket Bunnies (iOS and Android), Ski Safari (iOS and Android), Heroes Call (iOS and Android) or Hand of Fate (PC, PS4 and Xbox One).<br><br> 
