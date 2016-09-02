@@ -16,14 +16,14 @@ h3 {
 	font-weight: 400;
 	font-size: 2em;
 	margin-bottom: 10px;
-	text-align: center;
 	color: #d4d4d4;
+	text-align: center;
 }
 
 h4 {
 	font-family: 'Oxygen', sans-serif;
 	font-weight: 400;
-	font-size: 2.5em;
+	font-size: 2em;
 	margin-bottom: 10px;
 	color: #1d1d1d;
 	margin-top: -9%;
@@ -44,7 +44,7 @@ p.red-text {
 
 @media screen and (min-width: 1921px ) and (max-width: 3000px) {
 	p.white-text, p.black-text, li.black-text, p.red-text {
-		font-size:2em;
+		font-size:1.3em;
 	}
 
 	h4, h2 {
@@ -64,7 +64,7 @@ p.red-text {
 
 @media screen and (min-width: 1200px ) and (max-width: 1450px) {
 	li.black-text, p.white-text, p.red-text{
-		font-size: 1.4em;
+		font-size: 1em;
 	}
 }
 
@@ -569,6 +569,7 @@ ul.black-text {
 	height:0;
 	margin-top: 5%;
 	margin-bottom: 15%;
+	max-width: 960px;;
 }
 
 .youtube-trailer-box-hof2 {
@@ -703,8 +704,8 @@ ul.black-text {
 	margin-top: -10%;
 }
 
-.key-features-container-hof {
-	margin-top: -16%;
+.key-features-container-hof {;;
+	margin-top: -14%;
 }
 
 .coming-soon-container {
@@ -762,7 +763,10 @@ ul.black-text {
 }
 
 .screenshots-section-hof {
-	padding-top: 25%;
+	padding-top: 15%;
+	margin-top: -20%;
+	margin-bottom: 10%;
+	padding-bottom: 70;
 }
 
 .key-features-container {
@@ -922,7 +926,7 @@ ul.black-text {
 
 .white-border {
 	border-top: 1px solid #d4d4d4;
-	margin-top:20px;
+	margin-top: 20px;;
 }
 
 .white-border-bottom {
