@@ -31,12 +31,8 @@ youtube-iframe {
     left: 0;
 }
 
-.trailer-text-area {
-	max-width: 400px;
-}
-
 .trailer-text-area .red-text, .trailer-text-area h2 {
-	color:#761907;
+	color:#b82b14;
 	position: relative;
 }
 
@@ -62,19 +58,64 @@ youtube-iframe {
     position: relative;
 }
 
-.trailer-text-area.overview {
-	bottom: 20px;
-	max-width: 300px;
-}
-
 .trailer-text-area.overview h3 {
 	text-align: left;
 	margin: 20px 0;
 	padding: 20px 0 0 ;
 }
 
+.key-features-container .trailer-text-area.overview, .key-features-container .trailer-text-area.overview h3 {
+	text-align: center;
+}
+
+.key-features-container .trailer-text-area.overview .white-border-under:after, .key-features-container .trailer-text-area.overview .white-border-bottom:after {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.white-border, .white-border-bottom {
+	border: 0px;
+}
+
+.white-border:before {
+	display: block;
+	content: "";
+	position: relative;
+	width: 60%;
+	height: 1px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.white-border-bottom:after {
+	display: block;
+	content: "";
+	position: relative;
+	width: 60%;
+	height: 1px;
+	background: #fff;
+	margin-top: 20px;
+}
+
+.white-border-under:after {
+	display: block;
+	content: "";
+	position: relative;
+	width: 60%;
+	height: 1px;
+	background: #fff;
+	margin-top: 20px; 
+}
+
 @media screen and (max-width: 1920px) and (min-width: 1450px) {
 	li.black-text, p.white-text, p.red-text {
 	    font-size: 1em;
+	}
+	.trailer-text-area.overview {
+		bottom: 20px;
+		max-width: 300px;
+	}
+	.trailer-text-area {
+		max-width: 400px;
 	}
 }
