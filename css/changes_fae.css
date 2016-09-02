@@ -1,0 +1,80 @@
+.youtube-trailer-box-hof2 {
+	max-width: 700px;
+	height: 430px;
+	padding: 0;
+	margin-right: 40px;
+}
+
+.youtube-trailer-box-hof2:before {
+ 	content:url('../img/redLeft.png'); /* with class ModalCarrot ??*/
+  	position:absolute; /*or absolute*/
+ 	left: -40px;
+ 	top: -30px;
+}
+
+.youtube-trailer-box-hof2:after {
+	content:url('../img/redRight.png'); /* with class ModalCarrot ??*/
+  	position:absolute; /*or absolute*/
+ 	right: -40px;
+ 	left: auto;
+ 	top: -30px;
+}
+
+#constraint {
+	background:#000;
+}
+
+youtube-iframe {
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 0;
+}
+
+.trailer-text-area {
+	max-width: 400px;
+}
+
+.trailer-text-area .red-text, .trailer-text-area h2 {
+	color:#761907;
+	position: relative;
+}
+
+.trailer-text-area h2 {
+	margin-bottom: 50px;
+}
+
+.trailer-text-area h2:after, .trailer-text-area h2:before{
+  content:url('../img/redHorizon.png'); /* with class ModalCarrot ??*/
+  position:absolute; /*or absolute*/
+  bottom: -35px;
+  left: 0;
+}
+
+.trailer-text-area h2:before {
+	bottom: auto;
+	top: -50px;
+}
+
+.overview-container {
+    background-image: url(../img/overviewbackground.png);
+    margin-top: -10%;
+    position: relative;
+}
+
+.trailer-text-area.overview {
+	bottom: 20px;
+	max-width: 300px;
+}
+
+.trailer-text-area.overview h3 {
+	text-align: left;
+	margin: 20px 0;
+	padding: 20px 0 0 ;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1450px) {
+	li.black-text, p.white-text, p.red-text {
+	    font-size: 1em;
+	}
+}
