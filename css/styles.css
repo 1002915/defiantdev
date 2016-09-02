@@ -23,6 +23,17 @@ html {
     /* margin-top: -200px; */
     border-top: 1px solid #623e18;
     padding-top: 40px;
+    position:relative;
+}
+
+.home-background:before {
+	height:576px;
+	width:100%;
+	background: url(../img/fade.png);
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
 }
 
 .page-content {
@@ -453,6 +464,7 @@ ul.black-text {
 .home-background {
 	background: url(../img/background.jpg);
 	background-size: cover;
+	background-attachment:fixed;
 	margin-top: -200px;
 	padding-top:200px;
 }
@@ -460,6 +472,8 @@ ul.black-text {
 .navigation nav ul li {
 	list-style:none;
 	margin-right:20px;
+	z-index: 2;
+    position: relative;
 }
 
 .navigation {
@@ -479,6 +493,8 @@ ul.black-text {
 	max-width: 1220px;
 	width: 100%;
 	margin: 0 auto;
+	position:relative;
+	z-index:2;
 }
 
 .page-content {

@@ -176,6 +176,9 @@ p {
 
 .navigation {
 	padding: 0;
+	z-index: 2;
+    position: relative;
+
 }
 
 .nav-flex:after {
@@ -185,10 +188,15 @@ p {
 	background-repeat: repeat-x;
 	padding-bottom: 20px;
 	position: absolute;
-	bottom: -15px;
+	bottom: -11px;
 	width: 100%;
 	height: 30px;
 	pointer-events: none;
+}
+
+.home-background {
+    margin-top: -0px;
+    padding-top: 40px;
 }
 
 .landing {
@@ -199,6 +207,7 @@ p {
 .leftQuote, .landingImage, .rightQuote {
 	display: table-cell;
 	position: relative;
+	background: #000;
 }
 .leftQuote,.rightQuote {
 	background: #000;
@@ -285,6 +294,20 @@ p {
 	margin-top: -10%;
 		background: none;
 		padding-bottom: 20px;
+}
+
+.twitter-container {
+	margin-top:30px;
+}
+
+.blog-box-heading {
+	margin-bottom:30px;
+}
+.blog-title, .blog-date {
+	padding-bottom:20px;
+}
+.blog-content {
+	padding-bottom:40px;
 }
 
 @media screen and (max-width: 1002px) and (min-width: 320px) {
